@@ -15,10 +15,10 @@ get_header();?>
           <li><span>(123) 456 - 7890</span></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-          <li><a href="/">Home</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
           <li><a href="about">About</a></li>
           <li><a href="faq">FAQs</a></li>
-          <li><a href="/#contact">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li><a href="#">Blog</a></li>          
           <li><span>(123) 456 - 7890</span></li>
         </ul>

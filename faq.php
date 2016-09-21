@@ -3,8 +3,8 @@
 		<nav>
       <div class="nav-wrapper">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo">LEEPT</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-	      <ul class="right hide-on-med-and-down">
+        <a href="#" data-activates="mobile-demo" class="button-collapse">=</a>
+        <ul class="right hide-on-med-and-down">
           <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
           <li><a href="about">About</a></li>
           <li><a href="faq">FAQs</a></li>
@@ -13,7 +13,7 @@
           <li><span>(123) 456 - 7890</span></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-          <li><a href="/">Home</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
           <li><a href="about">About</a></li>
           <li><a href="faq">FAQs</a></li>
           <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
