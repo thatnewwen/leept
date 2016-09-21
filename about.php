@@ -1,28 +1,58 @@
 <?php /* Template Name: About */ get_header();?>
-
+<header id="masthead" class="site-header" role="banner">
+		<nav>
+      <div class="nav-wrapper">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo">LEEPT</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	      <ul class="right hide-on-med-and-down">
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="faq">FAQs</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
+          <li><a href="#">Blog</a></li>          
+          <li><span>(123) 456 - 7890</span></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="/">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="faq">FAQs</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
+          <li><a href="#">Blog</a></li>          
+          <li><span>(123) 456 - 7890</span></li>
+        </ul>
+      </div>
+    </nav>
+	</header><!-- #masthead -->
 
 <div class="about-header">
 	<span class="header-intro">ABOUT</span><br>
 </div>
-<div class="about-div">
-	<h3>WHY GO TO LEE PHYSICAL THERAPY</h3>
-<p>Unlike the vast majority of physical therapy clinics where you will only see the therapist for 15 mins and then spend the rest of the session doing exercises with a tech, patients will be seen by the therapist for a full hour of hands on manual work to decrease pain, become stronger, move better and improve faster in a fewer number of visits. We will get joints to move better, relieve tension, and improve strength and performance. </p></div>
-
-<div class="about-div alt-div">
-
-<h3>WHAT'S DIFFERENT ABOUT OUR CLINIC</h3>
-<p>We meet you where you are. If you have been disappointed with physical therapy in the past and feel like it only helped a little or it was not helpful at all, our hands on manual therapy approach is what you need to get better.  We come to your house and provide a full 1 hour of hands on manual therapy in order to relieve pain, restore motion, and enhance performance. </p>
+<div class="about-picture">
 </div>
-
 <div class="about-div">
-
-<h3>DIRECT/SELF PAY vs INSURANCE</h3>
-<p>Physical therapy reimbursement rates from insurance companies are decreasing each year. It will only get worse with the direction health care is going in the United States. In order to stay in business, physical therapy clinics have to bend over backwards to bring in a higher volume of patients. This amounts to a significant decrease in quality of care.  Insurance companies require a lot of objective measurements and endless survey questionnaires to be filled out.  To get reimbursed, clinics are busy meeting the demands of insurance companies, they hire more support staff to handle patient care and individual patient care is lost in the hustle.  We do not have to constantly meet the demands of insurance companies and our focus is 100% on quality individual patient care. </p>
+	<h3>Personal Background</h3>
+<p>James Lee was born and raised in the northern suburbs of Chicago. He graduated from the University of Illinois in Chicago with a bachelor’s degree in Movement Science and then received his Doctor of Physical Therapy degree from Rosalind Franklin University of Medicine and Science in 2010. He has enjoyed running since college and gave instructional seminars on running for his final project in PT school.</p>
+<p>James has also been an avid climber for over 10 years.  He has climbed in Squamish, B.C., Horseshoe Canyon, AR, Devil’s Lake, WI, Neceda, WI, DWS at Lake Kincaid, IL and regularly goes to Red River Gorge, KY.  He has had his fair share of tendon/ligament/muscle injuries so he knows exactly what climbers are going through when they get hurt.</p>
 </div>
 
 <div class="about-div alt-div">
 
-<h3>DO YOU HAVE A PRESCRIPTION</h3>
-<p>Yes: Great! we can treat you right away and get you feeling better by the end of the session</p>
-<p>No: That's okay! We will still be able to perform a full 1 hour detailed evaluation to see exactly where your problem is.  We then fax the evaluation to your primary care provider and upon receiving your doctor's signature, that evaluation is good for up to 1 year to treat you for your problems. Realistically you will feel dramatic results and only have to be seen for 4-6 weeks. </p>
+<h3>FAAOMPT</h3>
+<p>In November of  2012 James began his fellowship training with the Manual Therapy Institute (a fellowship program based in Texas credentialed by the American Physical Therapy Association) to specialize in manual therapy. This is more of a hands on approach to treating the body, restoring motion and improving movement.</p>
+<p>
+	James will be finishing his program by the end of 2016. Upon completion he will receive the title, Fellow of the America Association of Manual Physical Therapists. This is internationally recognized for the therapist’s competence and expertise in advanced clinical, analytical, and hands-on skills in the treatment of musculoskeletal orthopedic movement disorders.
+</p>
+</div>
+
+<div class="about-div">
+
+<h3>Clinical Background</h3>
+<p>James has been working in the outpatient orthopedic setting since 2010.  Within that time he has treated  a wide range of conditions including sports injuries, joint replacements, ligament sprain/reconstruction, neck/low back pain, muscle strains, fractures, etc. 
+ </p>
+ <p>
+ Due to his enjoyment for climbing, he has come to specialize in treating many climbing injuries from tendon strains, pulley injuries, shoulder pain, cervical nerve impingement, medial epicondylitis, etc. If there is one thing climbers hate the most is not being able to climb because of an injury. James can pinpoint where your injury is and teach you to still be able to safely climb while promote healing to your injured body parts. 
+ </p>
+ <div class="center" style="margin-bottom:50px; margin-top: 100px;">
+ <a class="button" href="faq">FAQ</a>
+ </div>
 </div>

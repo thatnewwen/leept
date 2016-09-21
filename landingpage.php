@@ -1,7 +1,30 @@
 <?php /* Template Name: LandingPage */ 
 
 get_header();?>
-
+<header id="masthead" class="site-header" role="banner">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo">LEEPT</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse">=</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="faq">FAQs</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Blog</a></li>          
+          <li><span>(123) 456 - 7890</span></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="/">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="faq">FAQs</a></li>
+          <li><a href="/#contact">Contact</a></li>
+          <li><a href="#">Blog</a></li>          
+          <li><span>(123) 456 - 7890</span></li>
+        </ul>
+      </div>
+    </nav>
+  </header><!-- #masthead -->
 
   <body>
     
@@ -19,33 +42,68 @@ get_header();?>
       <div class="landing-picture">
       </div>
       <div class="about-container">
+      <div class="contact-header">
+        <span class="header-intro">James Lee, PT, DPT</span><br>
+      </div>
         <div class="about">
-        <div class="about-paragraphs">
-          <p>James Lee was born in Chicago and grew up in the northern suburbs. In 2006 he graduated from the University of Illinois in Chicago with a bachelor’s degree in Movement Science. In 2010 he received his doctor of physical therapy degree from Rosalind Franklin University of Medicine and Science. James has been in the outpatient orthopedic setting since August 2010 and has worked with a wide range of conditions from sports injuries, joint replacement, ligament reconstruction to low back pain, muscle strains and joint pain.</p><p>James helps his patients with skilled hands on manual therapy to get them moving better. He provides patient education and he guides them through targeted exercises to facilitate movement, accelerate healing, minimize pain, and improve strength. In November 2012 James began his fellowship training with the Manual Therapy Institute (a fellowship program credentialed by the American Physical Therapy Association based in Texas) in order to specialize in manual therapy. He will be finishing his program by the end of 2016. Upon completion he will receive the title of Fellow of the America Association of Manual Physical Therapists. This title is internationally recognized for his competence and expertise in advanced clinical, analytical, and hands-on skills in the treatment of musculoskeletal orthopedic movement disorders.</p>
-        </div>
+          <div class="picture-container">
+            <div class="profile-picture">
+            </div>
+          </div>
+          <div class="about-paragraphs">
+            <p>James Lee has been a Doctor of Physical Therapy since 2010 and he has a strong background in treating all orthopedic conditions including sports injuries, joint replacements, ligament sprain/reconstruction, neck/low back pain, muscle strains, fractures, etc.</p>
+            <p>James received his DPT degree from Rosalind Franklin University of Medicine and Science. In 2012 he began his focus on completing a fellowship program specializing in manual therapy. He will be completing this program by the end of 2016.</p>
+            <p>James helps his patients with skilled hands on manual therapy to get them moving better. He guides them through targeted exercises to facilitate movement, accelerate healing, minimize pain, and improve strength.</p><br>
+            <a class="button" href="about">Learn More</a>
+          </div>
         </div>
         
       <div class="contact-header">
-        <span class="header-intro">CONTACT</span><br>
+        <span class="header-intro" id="contact">CONTACT</span><br>
       </div>
-
-      <div class="contact">
-        <form action="https://formspree.io/your@email.com"
-              method="POST">
-          <div class="input-field">
-            <input type="text" class="input-field" name="name">
-            <label for="name">Name</label>
-          </div>            
-          <div class="input-field">
-            <input type="text" name="email" class="input-field">
-            <label for="email">Email</label>
+      <div class="contact-div">
+        <div class="contact-info">
+          <div class="phone-number">
+            Phone: (123) 456 - 789
           </div>
-          <div class="input-field">
-            <textarea type="text" name="message" id="textarea1" class="materialize-textarea"></textarea>
-            <label for="textarea1">Message</label>
+          <div class="email">
+            Email: email@email.com
           </div>
-            <input class="submit" type="submit" value="Send">
-        </form>
+        </div>
+        <div class="contact row">
+          <form action="https://formspree.io/your@email.com"
+                method="POST" class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input type="text" name="name">
+                <label for="name">Name</label>
+              </div>           
+            </div> 
+            <div class="row">
+              <div class="input-field col s12">
+                <input type="text" name="email">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <input type="text" name="phone">
+                <label for="phone">Phone (Optional)</label>
+              </div>
+              <div class="input-field col s6">
+                <input type="text" name="age">
+                <label for="age">Age (Optional)</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea type="text" name="message" id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Message</label>
+              </div>
+            </div>
+              <input class="submit" type="submit" value="Send">
+          </form>
+        </div>
       </div>
     </div><!-- /.container -->
 
