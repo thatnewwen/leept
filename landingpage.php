@@ -1,35 +1,4 @@
-<?php /* Template Name: LandingPage */
-
-get_header();?>
-<header id="masthead" class="site-header" role="banner">
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo center">LEEPT</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse">=</a>
-        <ul class="left hide-on-med-and-down">
-          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="faq">FAQ</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#contact">Contact</a></li>
-          <li><span>(123) 456 - 7890</span></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="faq">FAQ</a></li>
-          <li><a href="#">Blog</a></li>
-          <hr />
-          <li><a href="#contact">Contact</a></li>
-          <li><span>(123) 456 - 7890</span></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-</header><!-- #masthead -->
+<?php /* Template Name: LandingPage */get_header();?>
 
 <body>
   <div class="">
@@ -111,31 +80,6 @@ get_header();?>
         </form>
       </div>
     </div>
-  </div><!-- /.container -->
+  </div><!-- /.about-container -->
 
-  <footer class="page-footer">
-    <div class="container center">
-      <div class="row footer-social">
-        <a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/facebook.png"/></a>
-        <a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/instagram.png"/></a>
-        <a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/google-plus.png"/></a>
-        <a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/wordpress.png"/></a>
-      </div>
-
-      <div class="row footer-nav">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a>
-        <a href="about">About</a>
-        <a href="faq">FAQ</a>
-        <a href="#">Blog</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-    <!-- <div class="footer-copyright">
-      <div class="container">
-        Copyright © 2016 LEEPT
-      </div>
-    </div> -->
-  </footer>
-
-</body>
-</html>
+  <?php /* Template Name: landingpage */ get_footer();?>
