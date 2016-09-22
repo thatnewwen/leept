@@ -879,11 +879,10 @@ body{
 }
 
 nav{
-	background-color: #E74A33;
+	background-color: #d63b25;
 	padding: 0px 20px;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
-	box-shadow: none;
 }
 
 nav ul a:hover {
@@ -897,7 +896,6 @@ nav ul a:hover {
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   background-color: #e74a33;
-  border-top: 3px dashed white;
 }
 
 .landing-picture{
@@ -907,6 +905,12 @@ nav ul a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@media only screen and (max-width: 600px){
+	.landing-picture{
+		background-position: 15% center;
+	}
 }
 
 .about-picture{
@@ -956,7 +960,6 @@ nav ul a:hover {
 	background-color: #E74A33;
 	color: white;
 	padding: 50px;
-	border-top: 3px dashed white;
 }
 
 .contact-header{
@@ -979,7 +982,7 @@ nav ul a:hover {
 }
 
 .button{
-	background-color: orangered;
+	background-color: #e74a33;
 	color: white;
 	padding: 10px 20px;
 	border-radius: 3%;
@@ -991,6 +994,9 @@ nav ul a:hover {
 	text-align: justify;
 }
 
+.about h5{
+	text-align: justify;
+}
 
 .contact{
 	height: 80vh;
@@ -1002,7 +1008,7 @@ nav ul a:hover {
 }
 
 .connect{
-	color: orangered;
+	color: #e74a33;
 	font-size: 50px;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
@@ -1021,6 +1027,7 @@ form{
 	align-items: center;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 }
 
 .input-field{
@@ -1028,7 +1035,7 @@ form{
 	font-size: 2vw;
 	font-family: 'Montserrat', sans-serif;
 	/*margin: 10px;*/
-	color: orangered;
+	color: #e74a33;
 }
 
 
@@ -1037,54 +1044,54 @@ form{
 
 /* label color */
 .input-field label {
- color: orangered;
+ color: #e74a33;
 }
 /* label focus color */
 .input-field input[type=text]:focus + label {
- color: orangered;
+ color: #e74a33;
 }
 
 .input-field textarea[type=text]:focus + label {
- color: orangered;
+ color: #e74a33;
 }
 
 .input-field input{
-	border-bottom: 1px solid orangered;
+	border-bottom: 1px solid #e74a33;
 
 }
 
 .input-field textarea{
-	border-bottom: 1px solid orangered;
+	border-bottom: 1px solid #e74a33;
 
 }
 
 /* label underline focus color */
 .input-field input[type=text]:focus {
- border-bottom: 1px solid orangered;
- box-shadow: 0 1px 0 0 orangered;
+ border-bottom: 1px solid #e74a33;
+ box-shadow: 0 1px 0 0 #e74a33;
 }
 /* valid color */
 .input-field input[type=text].valid {
- border-bottom: 1px solid orangered;
- box-shadow: 0 1px 0 0 orangered;
+ border-bottom: 1px solid #e74a33;
+ box-shadow: 0 1px 0 0 #e74a33;
 }
 /* invalid color */
 .input-field input[type=text].invalid {
- border-bottom: 1px solid orangered;
- box-shadow: 0 1px 0 0 orangered;
+ border-bottom: 1px solid #e74a33;
+ box-shadow: 0 1px 0 0 #e74a33;
 }
 
 .input-field textarea[type=text]:focus{
- border-bottom: 1px solid orangered;
- box-shadow: 0 1px 0 0 orangered;
+ border-bottom: 1px solid #e74a33;
+ box-shadow: 0 1px 0 0 #e74a33;
 }
 /* icon prefix focus color */
 .input-field .prefix.active {
- color: orangered;
+ color: #e74a33;
 }
 
 .submit{
-	background-color: orangered;
+	background-color: #e74a33;
 	border: none;
 	padding: 10px 20px;
 	text-transform: uppercase;
@@ -1100,6 +1107,7 @@ form{
   width: 60%;
   padding: 25px;
   padding-right: 100px;
+	text-align: center;
 }
 
 .about-div{

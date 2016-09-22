@@ -5,22 +5,25 @@ get_header();?>
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo">LEEPT</a>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo center">LEEPT</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse">=</a>
-          <ul class="right hide-on-med-and-down">
+          <ul class="left hide-on-med-and-down">
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
             <li><a href="about">About</a></li>
-            <li><a href="faq">FAQs</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="faq">FAQ</a></li>
             <li><a href="#">Blog</a></li>
+          </ul>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#contact">Contact</a></li>
             <li><span>(123) 456 - 7890</span></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
             <li><a href="about">About</a></li>
-            <li><a href="faq">FAQs</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="faq">FAQ</a></li>
             <li><a href="#">Blog</a></li>
+            <hr />
+            <li><a href="#contact">Contact</a></li>
             <li><span>(123) 456 - 7890</span></li>
           </ul>
         </div>
@@ -65,7 +68,7 @@ get_header();?>
         <span class="header-intro" id="contact">CONTACT</span><br>
       </div>
       <div class="contact-div">
-        <div class="contact-info">
+        <div class="contact-info row">
           <div class="phone-number">
             Phone: (123) 456 - 789
           </div>

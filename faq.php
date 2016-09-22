@@ -1,27 +1,32 @@
 <?php /* Template Name: FAQ */ get_header();?>
 <header id="masthead" class="site-header" role="banner">
-		<nav>
-      <div class="nav-wrapper">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo">LEEPT</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse">=</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="faq">FAQs</a></li>
-          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
-          <li><a href="#">Blog</a></li>          
-          <li><span>(123) 456 - 7890</span></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="faq">FAQs</a></li>
-          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
-          <li><a href="#">Blog</a></li>          
-          <li><span>(123) 456 - 7890</span></li>
-        </ul>
-      </div>
-    </nav>
+	  <div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo center">LEEPT</a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse">=</a>
+					<ul class="left hide-on-med-and-down">
+						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+						<li><a href="about">About</a></li>
+						<li><a href="faq">FAQ</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="#contact">Contact</a></li>
+						<li><span>(123) 456 - 7890</span></li>
+					</ul>
+					<ul class="side-nav" id="mobile-demo">
+						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+						<li><a href="about">About</a></li>
+						<li><a href="faq">FAQ</a></li>
+						<li><a href="#">Blog</a></li>
+						<hr />
+						<li><a href="#contact">Contact</a></li>
+						<li><span>(123) 456 - 7890</span></li>
+					</ul>
+				</div>
+			</nav>
+	</div>
 	</header><!-- #masthead -->
 
 <div class="about-header">
