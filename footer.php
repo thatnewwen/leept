@@ -15,10 +15,10 @@
 <footer class="page-footer">
 	<div class="container center">
 		<div class="row footer-social">
-			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/facebook.png"/></a>
-			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/instagram.png"/></a>
-			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/google-plus.png"/></a>
-			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/wordpress.png"/></a>
+			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/facebook.svg"/></a>
+			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/instagram.svg"/></a>
+			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/google-plus.svg"/></a>
+			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/wordpress.svg"/></a>
 		</div>
 
 		<div class="row footer-nav">
