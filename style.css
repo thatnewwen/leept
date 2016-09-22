@@ -1253,3 +1253,31 @@ h3{
 .learn-more{
 	margin-bottom: 30px;
 }
+
+footer.page-footer {
+	background-color: #d63b25;
+}
+
+footer.page-footer .footer-copyright{
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	font-size: small;
+	background-color: inherit;
+	border-top: 1px solid rgba(255,255,255,0.8);
+}
+
+footer .social-icon{
+	margin: 10px 10px;
+}
+
+footer .footer-nav{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+footer .footer-nav a{
+	margin: 10px 15px;
+	font-size: small;
+	text-transform: uppercase;
+}
