@@ -880,9 +880,10 @@ body{
 
 nav{
 	background-color: #E74A33;
-	padding: 0px 10px;
+	padding: 0px 20px;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
+	box-shadow: none;
 }
 
 nav ul a:hover {
@@ -890,7 +891,7 @@ nav ul a:hover {
 }
 
 .header{
-  height: 92vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -918,19 +919,18 @@ nav ul a:hover {
 }
 
 .profile-picture{
-  width: 300px;
-  border-radius: 50%;
-  border: 2px solid #e74a33;
+  width: 200px;
+	height: 200px;
+	border-radius: 50%;
   background: url(profile-picture.jpg);
-  height: 300px;
   object-fit: cover;
   background-position: center center;
-  background-size: 300px;
+  background-size: 200px;
   background-repeat: no-repeat;
 }
 
 .picture-container{
-  
+
   width: 40%;
   height: 410px;
   display: flex;
@@ -945,7 +945,7 @@ nav ul a:hover {
 
 .header-intro{
 	text-transform: uppercase;
-	font-size: 50px;
+	font-size: 45px;
 	margin-bottom: 0px;
 	font-family: 'Montserrat', sans-serif;
 
@@ -963,7 +963,7 @@ nav ul a:hover {
 	text-align: center;
 	background-color: #E74A33;
 	color: white;
-	padding: 50px;
+	padding: 30px;
 }
 
 .header-sentence{
@@ -974,6 +974,7 @@ nav ul a:hover {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: row;
 	height: 80vh;
 }
 
@@ -983,14 +984,6 @@ nav ul a:hover {
 	padding: 10px 20px;
 	border-radius: 3%;
 	text-transform: uppercase;
-}
-
-.about{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
-	height: 70vh;
 }
 
 .about p{
@@ -1138,7 +1131,7 @@ form{
 }
 
 .phone-number{
-  float: right;	
+  float: right;
 }
 
 .contact-div{
