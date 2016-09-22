@@ -1159,6 +1159,7 @@ form{
 	font-size: 18px;
 	font-family: 'Montserrat';
 	text-transform: uppercase;
+	text-align: center;
 }
 
 @media (max-width: 600px) {
