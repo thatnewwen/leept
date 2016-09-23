@@ -15,7 +15,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-		
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -31,3 +31,33 @@
 
 
 	<div id="content" class="site-content">
+
+		<header id="masthead" class="site-header" role="banner">
+		  <div class="navbar-fixed">
+		    <nav>
+		      <div class="nav-wrapper">
+		        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo center">LEEPT</a>
+		        <a href="#" data-activates="mobile-demo" class="button-collapse">=</a>
+		        <ul class="left hide-on-med-and-down">
+		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+		          <li><a href="about">About</a></li>
+		          <li><a href="faq">FAQ</a></li>
+		          <li><a href="#">Blog</a></li>
+		        </ul>
+		        <ul class="right hide-on-med-and-down">
+		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
+		          <li><span>(847) 957-3137</span></li>
+		        </ul>
+		        <ul class="side-nav" id="mobile-demo">
+		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+		          <li><a href="about">About</a></li>
+		          <li><a href="faq">FAQ</a></li>
+		          <li><a href="#">Blog</a></li>
+		          <hr />
+		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
+		          <li><span>(847) 957-3137</span></li>
+		        </ul>
+		      </div>
+		    </nav>
+		  </div>
+		</header><!-- #masthead -->

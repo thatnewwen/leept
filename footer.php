@@ -1,25 +1,40 @@
 <?php
 /**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package leept
- */
+* The template for displaying the footer.
+*
+* Contains the closing of the #content div and all content after.
+*
+* @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+*
+* @package leept
+*/
 
 ?>
 
-	</div><!-- #content -->
+</div><!-- #content -->
+<footer class="page-footer">
+	<div class="container center">
+		<div class="row footer-social">
+			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/facebook.svg"/></a>
+			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/instagram.svg"/></a>
+			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/google-plus.svg"/></a>
+			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/wordpress.svg"/></a>
+		</div>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'leept' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'leept' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'leept' ), 'leept', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+		<div class="row footer-nav">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a>
+			<a href="about">About</a>
+			<a href="faq">FAQ</a>
+			<a href="#">Blog</a>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a>
+		</div>
+	</div>
+	<!-- <div class="footer-copyright">
+	<div class="container">
+	Copyright © 2016 LEEPT
+</div>
+</div> -->
+</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
