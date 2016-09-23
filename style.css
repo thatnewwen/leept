@@ -1268,10 +1268,8 @@ footer.page-footer .footer-copyright{
 	border-top: 1px solid rgba(255,255,255,0.8);
 }
 
-footer .social-icon img{
+footer .social-icon{
 	margin: 10px 10px;
-	width: 32px;
-	height: 32px;
 }
 
 footer .footer-nav{
