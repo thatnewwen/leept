@@ -55,7 +55,7 @@
 		          <li><a href="#">Blog</a></li>
 		          <hr />
 		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
-		          <li><span>(123) 456 - 7890</span></li>
+		          <li><span>(847) 957-3137</span></li>
 		        </ul>
 		      </div>
 		    </nav>
