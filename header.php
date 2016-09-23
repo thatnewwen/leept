@@ -46,7 +46,7 @@
 		        </ul>
 		        <ul class="right hide-on-med-and-down">
 		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
-		          <li><span>(847) 957-3137</span></li>
+		          <li><span>(123) 456 - 7890</span></li>
 		        </ul>
 		        <ul class="side-nav" id="mobile-demo">
 		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
