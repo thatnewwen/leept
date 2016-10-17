@@ -1309,7 +1309,7 @@ aside {
 	}
 }
 
-.widget-title, .entry-title, #reply-title {
+.widget-title, .entry-title, #reply-title, .comments-title {
 	font-size: 20px;
 }
 
