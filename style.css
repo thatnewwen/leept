@@ -375,7 +375,7 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0 0 1.5em 1em;
 }
 
 ul {
@@ -485,11 +485,11 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #fff;
+	color: #404040;
 }
 
 a:visited {
-	color: #fff;
+	color: #404040;
 }
 
 a:hover,
@@ -1283,4 +1283,52 @@ footer .footer-nav a{
 	margin: 10px 15px;
 	font-size: small;
 	text-transform: uppercase;
+}
+
+#primary {
+	width: 70%;
+	float: left;
+	padding: 50px;
+}
+
+aside {
+	width: 30%;
+	float: right;
+	padding: 50px;
+}
+
+@media (max-width: 600px) {
+	#primary {
+		width: 100%;
+		float: none;
+		padding: 50px;
+	}
+
+	aside{
+		display: none;
+	}
+}
+
+.widget-title, .entry-title, #reply-title {
+	font-size: 20px;
+}
+
+.entry-footer span{
+	margin-right: 1em;
+}
+
+.nav-wrapper a, .footer-nav a, .nav-links a{
+	color: white;
+}
+
+.nav-wrapper a:hover{
+	text-decoration: none;
+}
+
+.button{
+	color: white;
+}
+
+.button:visited{
+	color: white;
 }

@@ -42,7 +42,7 @@
 		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
 		          <li><a href="about">About</a></li>
 		          <li><a href="faq">FAQ</a></li>
-		          <li><a href="#">Blog</a></li>
+		          <li><a href="blog">Blog</a></li>
 		        </ul>
 		        <ul class="right hide-on-med-and-down">
 		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
@@ -52,7 +52,7 @@
 		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
 		          <li><a href="about">About</a></li>
 		          <li><a href="faq">FAQ</a></li>
-		          <li><a href="#">Blog</a></li>
+		          <li><a href="blog">Blog</a></li>
 		          <hr />
 		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">Contact</a></li>
 		          <li><span>(847) 957-3137</span></li>
