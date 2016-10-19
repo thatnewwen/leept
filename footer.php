@@ -15,10 +15,10 @@
 <footer class="page-footer">
 	<div class="container center">
 		<div class="row footer-social">
-			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/facebook.svg"/></a>
-			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/instagram.svg"/></a>
-			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/google-plus.svg"/></a>
-			<a class="social-icon" href="#"><img src="<?php bloginfo('template_url'); ?>/img/icon/wordpress.svg"/></a>
+			<a class="social-icon" target="_blank" href="https://www.facebook.com/LEEDPT/"><img src="<?php bloginfo('template_url'); ?>/img/icon/facebook.svg"/></a>
+			<a class="social-icon" target="_blank"  href="https://www.instagram.com/jamesleedpt/"><img src="<?php bloginfo('template_url'); ?>/img/icon/instagram.svg"/></a>
+			<a class="social-icon" target="_blank" href="https://goo.gl/maps/JWcFRjE1vBC2"><img src="<?php bloginfo('template_url'); ?>/img/icon/google-plus.svg"/></a>
+			<a class="social-icon" href="blog"><img src="<?php bloginfo('template_url'); ?>/img/icon/wordpress.svg"/></a>
 		</div>
 
 		<div class="row footer-nav">
