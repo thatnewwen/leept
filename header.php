@@ -9,6 +9,16 @@
  * @package leept
  */
 
+
+function wptuts_scripts_basic()
+{
+    // Register the script like this for a theme:
+    wp_register_script( 'hamburger', get_template_directory_uri() . '/js/hamburger.js' );
+ 
+    // For either a plugin or a theme, you can then enqueue the script:
+    wp_enqueue_script( 'hamburger' );
+}
+add_action( 'wp_enqueue_scripts', 'wptuts_scripts_basic' );
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -18,9 +28,10 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/side-menu.js"></script>
+    
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 
 <?php wp_head(); ?>
 </head>
@@ -37,7 +48,7 @@
 		    <nav>
 		      <div class="nav-wrapper">
 		        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo center">LEEPT</a>
-		        <a href="#" data-activates="mobile-demo" class="button-collapse">=</a>
+		        <a href="#" data-activates="mobile-demo" class="button-collapse"><img id="hamburger" src="<?php echo get_bloginfo('template_url') ?>/img/hamburger.png"/></a>
 		        <ul class="left hide-on-med-and-down">
 		          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
 		          <li><a href="about">About</a></li>

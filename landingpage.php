@@ -17,11 +17,11 @@
         <span class="header-intro">Bio</span><br>
       </div>
       <div class="about">
-        <div class="picture-container">
+        <div class="picture-container fadeInBlock">
           <div class="profile-picture">
           </div>
         </div>
-        <div class="about-paragraphs">
+        <div class="about-paragraphs fadeInBlock">
           <h5>James Lee, PT, DPT</h5>
           <p>James Lee has been a Doctor of Physical Therapy since 2010 and he has a strong background in treating all orthopedic conditions including sports injuries, joint replacements, ligament sprain/reconstruction, neck/low back pain, muscle strains, fractures, etc.</p>
           <p>James received his DPT degree from Rosalind Franklin University of Medicine and Science. In 2012 he began his focus on completing a fellowship program specializing in manual therapy. He will be completing this program by the end of 2016.</p>
@@ -33,7 +33,7 @@
       <div class="contact-header">
         <span class="header-intro" id="contact">CONTACT</span><br>
       </div>
-      <div class="contact-div">
+      <div class="contact-div fadeInBlock">
         <div class="contact-info row">
           <div class="phone-number">
             Phone: (847) 957-3137
