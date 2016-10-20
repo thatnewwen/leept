@@ -1332,3 +1332,17 @@ aside {
 .button:visited{
 	color: white;
 }
+
+.button-collapse{
+	display: flex;
+  align-items: center;
+}
+
+#hamburger{
+  width: 30px;
+}
+
+/*.fadeInBlock {
+    opacity:0;
+}
+*/
