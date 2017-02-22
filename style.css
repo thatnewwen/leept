@@ -11,17 +11,24 @@ nav{
 	margin-bottom: 0px;
 }
 
+.navbar>li{
+  margin: 0 10px;
+}
+
 .navbar .container-fluid{
 	position: relative;
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
     position: absolute;
     width: 100%;
     left: 0;
     top: 0;
     text-align: center;
     margin: auto;
+    font-size: 28px;
+    font-weight: 700;
+    color: #e74a33;
 }
 
 .header {
@@ -52,6 +59,7 @@ h1{
 .header-logo {
 	width: 200px;
 	height: 200px;
+  margin: 0 20px;
 }
 
 .header-text {
@@ -75,4 +83,10 @@ h1{
 
 .header-sentence{
 	font-size: 18px;
+}
+
+
+.side-contact{
+  margin-top: 20px;
+  font-size: 18px;
 }
