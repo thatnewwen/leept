@@ -1,7 +1,4 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-bottom: 20px;
-}
 
 nav{
 	z-index: 10;
@@ -85,8 +82,53 @@ h1{
 	font-size: 18px;
 }
 
+.header{
+  margin-bottom: 20px;
+}
 
-.side-contact{
+.container.intro{
+  height: 100vh;
+}
+
+.social li{
+  list-style: none;
+  display: inline;
+}
+
+.container.bio{
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  color: #fff;
+  background-color:#e35f4c;
+}
+
+
+.bio .bio-text{
+  padding: 10%;
+}
+
+.review .row{
+  padding: 20px 0;
+}
+
+.review-section{
+  border: 2px #fff solid;
+  border-radius: 5px;
+  min-height: 210px;
+  padding: 20px;
   margin-top: 20px;
-  font-size: 18px;
+}
+
+.blog{
+}
+
+footer{
+  color: #fff;
+  background-color: #262626;
+  height: 50vh;
+}
+
+footer form{
+
 }
