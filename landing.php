@@ -1,5 +1,5 @@
-<?php /* Template Name: Landing */ 
-get_header(); 
+<?php /* Template Name: Landing */
+get_header();
 ?>
 
 <!DOCTYPE html>
@@ -21,22 +21,22 @@ get_header();
   <div class="container intro">
     <!-- Example row of columns -->
     <div class="row">
-      <div class="col-md-4 col-md-offset-1 col-md-push-6">
+      <div class="col-md-4 col-md-push-7" style="padding: 0 30px;">
         <div class="row" style="margin-bottom: 20px">
         <img class="col-xs-5 col-md-5 bio-image" src="http://leedpt.com/wp-content/themes/leept/img/profile-picture.jpg" />
-        <div class="col-xs-7 col-md-7">
+        <div class="col-xs-7 col-md-7 contact">
           <p><b>p:</b> <a href="tel: 1-847-957-3137">(847) 957-3137</a></p>
           <p><b>f:</b> <a href="tel: 1-866-722-3137">(866) 722-3137</a></p>
-          <p><b>e:</b> <a style="color:#E74A33" href="mailto:jamesleedpt@gmail.com">&#106;&#97;&#109;&#101;&#115;&#108;&#101;&#101;&#100;&#112;&#116;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></p>
+          <p><b>e:</b> <a href="mailto:jamesleedpt@gmail.com">&#106;&#97;&#109;&#101;&#115;&#108;&#101;&#101;&#100;&#112;&#116;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></p>
           <ul class="social">
             <li>
-              <a href=""><img class="social-icon" src="<?php bloginfo('template_directory'); ?>/images/instagram.svg" /></a>
+              <a href="https://www.facebook.com/LEEDPT/" target="_blank"><img class="social-icon" src="<?php bloginfo('template_directory'); ?>/images/facebook.svg" /></a>
             </li>
             <li>
-              <a href=""><img class="social-icon" src="<?php bloginfo('template_directory'); ?>/images/facebook.svg" /></a>
+              <a href="https://www.instagram.com/jamesleedpt/" target="_blank"><img class="social-icon" src="<?php bloginfo('template_directory'); ?>/images/instagram.svg" /></a>
             </li>
             <li>
-              <a href=""><img class="social-icon" src="<?php bloginfo('template_directory'); ?>/images/linkedin.svg" /></a>
+              <a href="https://www.linkedin.com/in/james-lee-pt-dpt-2602a213/" target="_blank"><img class="social-icon" src="<?php bloginfo('template_directory'); ?>/images/linkedin.svg" /></a>
             </li>
           </ul>
         </div>
@@ -45,9 +45,10 @@ get_header();
           <a style="color:#E74A33" href="https://leedpt.setmore.com/">Inquire</a> <span style="padding: 0 15px;">|</span> <a style="color:#E74A33" href="https://leedpt.setmore.com/">Schedule an Appointment</a>
           </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11849.939413321361!2d-87.7501261!3d42.0542257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62bf3b2a7a1887c8!2sLee+Physical+Therapy!5e0!3m2!1sen!2sus!4v1489361069410" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <p class="text-center" style="margin: 0 10px;">Home service anywhere in the <b>Greater Chicago Area</b></p>
+        <p class="text-center" style="margin: 0 10px;">Home service in the <b>Greater Chicago Area</b></p>
       </div>
-      <div class="col-md-5 col-md-offset-1 col-md-pull-5">
+      <div class="col-md-6 col-md-offset-1 col-md-pull-4 about">
+        <div class="borde-top"></div>
         <h3>Mission</h3>
         <p>Lee Physical Therapy serves the Chicago community and is dedicated to quick recovery in order to safely return to activities you enjoy the most. We stay up to date with current sport specific movements and help you with hands-on manual therapy and guided exercises to facilitate movement, accelerate healing, minimize pain, and improve strength.</p>
 
@@ -70,7 +71,7 @@ get_header();
         <div class="bio-text">
         <h3>Manual Therapy</h3>
         <p>Avoid the endless, repetitive exercises that are commonly attributed to physical therapy. Get direct hands on treatment to mobilize your joints, release nerve tension and work to target muscles that improve motor control. Each session is 1 hour. With manual therapy plus guided exercises to retrain your muscles, you will feel and move better in a shorter period of time.</p>
-         
+
         <h3>Home Sessions</h3>
         <p>Physical therapy is provided in the comfort and convenience of your own home or work space. A portable treatment table is brought in and set up for complete care.</p>
 
@@ -81,7 +82,8 @@ get_header();
     </div>
   </div>
     <div class="container review">
-      <div class="row">
+      <div class="row text-center">
+        <h2 class="">Testimonials</h2>
         <div class="col-md-4">
           <div class="review-section">
             <div>
@@ -121,8 +123,8 @@ get_header();
             </p>
           </div>
         </div>
-        <div class="row text-center">
-          <a class="btn btn-default" href="">Leave a review</a>
+        <div class="text-center">
+          <a class="btn btn-default" href="https://goo.gl/maps/JWcFRjE1vBC2" target="_blank">Leave a review</a>
         </div>
       </div>
     </div>
@@ -167,16 +169,20 @@ get_header();
 
       <div class="col-md-4 home-blog-post">
       <a href="<?php the_permalink() ?>">
-        <?php 
+        <?php
               if (has_post_thumbnail() ){
-            echo '<div class="home-thumb">';
+            echo '<div class="home-blog-thumb">';
                   the_post_thumbnail();
             echo '</div>';
           }
               ?>
-        <?php the_title(); ?></a>
+          <div class="home-blog-info">
+            <!-- <p><?php the_category();?></p> -->
+            <h4 class="home-blog-title"><?php the_title(); ?></h4>
+          </div>
+        </a>
       </div>
-      <?php 
+      <?php
       endwhile;
       wp_reset_postdata();
       ?>
