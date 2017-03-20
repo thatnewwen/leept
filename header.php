@@ -23,12 +23,12 @@
 <link href="<?php bloginfo('template_directory'); ?>/css/leept-style.css" rel="stylesheet">
 </head>
 <body <?php body_class(); ?>>
-  
+
   <div id="menubar">
      <div class="container">
     <div class="toggle">
         <a class="toggleMenu" href="<?php echo esc_url('#');?>"><?php _e('Menu','twenty-minutes'); ?></a>
-     </div><!-- toggle --> 
+     </div><!-- toggle -->
      <nav class="navbar navbar-fixed-top navbar-default">
        <div class="container-fluid">
          <!-- Brand and toggle get grouped for better mobile display -->
