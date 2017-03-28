@@ -66,6 +66,17 @@ function twenty_minutes_widgets_init() {
 		'after_title'   => '</h3>',		
 	) );	
 	
+	register_sidebar( array(
+		'name'          => __( 'Footer Widget', 'twenty-minutes' ),
+		'description'   => __( 'Appears on footer of site', 'twenty-minutes' ),
+		'id'            => 'footer-widget-area',
+		'before_widget' => '<div class="footer-widget-area">',	
+		'after_widget'  => '</div>',	
+		'before_title'  => '<h3 class="footer-widget-title">',
+		'after_title'   => '</h3>',		
+	) );	
+	
+
 }
 add_action( 'widgets_init', 'twenty_minutes_widgets_init' );
 

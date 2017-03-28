@@ -18,7 +18,7 @@ get_header();
     </div>
   </div>
 
-  <div class="container intro">
+  <div id="about" class="container intro">
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4 col-md-push-7" style="padding: 0 30px;">
@@ -81,7 +81,7 @@ get_header();
       </div>
     </div>
   </div>
-    <div class="container review">
+    <div id="testimonals" class="container review">
       <div class="row text-center">
         <h2 class="">Testimonials</h2>
         <div class="col-md-4">
@@ -129,7 +129,7 @@ get_header();
       </div>
     </div>
 
-    <div class="container faq">
+    <div id="faq" class="container faq">
       <div class="row text-center">
         <h2>FAQ</h2>
       </div>
