@@ -45,14 +45,14 @@
          <!-- Collect the nav links, forms, and other content for toggling -->
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
            <ul class="nav navbar-nav">
-             <li><a href="#">About</a></li>
-             <li><a href="#">Testimonials</a></li>
-             <li><a href="#">FAQ</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#testimonals">Testimonials</a></li>
+             <li><a href="#faq">FAQ</a></li>
            </ul>
            <ul class="nav navbar-nav navbar-right">
              <li><a href="#">Blog</a></li>
              <li><a href="#">Schedule</a></li>
-             <li><a href="#">Contact</a></li>
+             <li><a href="#contact">Contact</a></li>
            </ul>
          </div><!-- /.navbar-collapse -->
        </div><!-- /.container-fluid -->
