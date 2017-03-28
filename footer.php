@@ -11,10 +11,11 @@
     	<div class="container">
     	  <form class="footer-form" action="https://formspree.io/your@email.com"
     	  method="POST">
+    		<h3 class="footer-form-title">Contact</h3>
     	  <span class="input input--madoka input-field">
     	    <input type="text" class="input-field input__field input__field--madoka" name="name" id="name">
     	    <label class="input__label input__label--madoka" for="name"><svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">    	  			<path d="m0,0l404,0l0,77l-404,0l0,-77z"/></svg>
-<span class="input__label-content input__label-content--madoka">Name</span></label>
+				<span class="input__label-content input__label-content--madoka">Name</span></label>
     	  </span>
     	  <span class="input input--madoka input-field">
     	    <input type="text" name="email" class="input-field input__field input__field--madoka" id="email">
@@ -26,14 +27,24 @@
     	  </span>
     	  <input class="submit" type="submit" value="Send">
     	</form>
-          <p><?php bloginfo('name'); ?>. <?php _e('All Rights Reserved', 'twenty-minutes');?></p>
-          <p><a href="<?php echo esc_url( __( 'https://zylothemes.com/', 'twenty-minutes' ) ); ?>"><?php printf( __( 'Powered by %s', 'twenty-minutes' ), 'WordPress' ); ?></a></p>
-        </div><!--end .container-->
+    	<?php 
+    	if (   is_active_sidebar( 'footer-widget-area'  )
+    	) : ?>
+		    <div class="footer-widget">
+		        <?php dynamic_sidebar( 'footer-widget-area' ); ?>
+		    </div><!-- .first .widget-area -->
+  	  <?php endif;?>
+    </div><!--end .container-->
+    
+    <div class="copyright-section">
+	    <span>Copyright 2017 LEEPT</span>
+    </div>
     </div><!--end .footer-wrapper-->
 <?php wp_footer(); ?>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/classie.js"></script>
 <script>
 			(function() {
 				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
