@@ -10,11 +10,11 @@
  * @package Twenty Minutes
  */
 
-get_header(); 
+get_header();
 ?>
-<div class="container">
-     <div class="pagewraps">    
-        <section class="site-content-wrap">          
+<div class="container" style="padding-top:30px">
+     <div class="pagewraps">
+        <section class="site-content-wrap">
 					<?php
                     if ( have_posts() ) :
                         // Start the Loop.
@@ -33,15 +33,15 @@ get_header();
 							'next_text' => __( 'Next', 'twenty-minutes' ),
 							'screen_reader_text' => __( 'Posts navigation', 'twenty-minutes' )
 						) );
-                    
+
                     else :
                         // If no content, include the "No posts found" template.
                          get_template_part( 'no-results', 'index' );
-                    
+
                     endif;
-                    ?>                     
-             </section>      
-        <?php get_sidebar();?>     
+                    ?>
+             </section>
+        <?php get_sidebar();?>
         <div class="clear"></div>
     </div><!-- site-aligner -->
 </div><!-- content -->

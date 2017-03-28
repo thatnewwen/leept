@@ -86,8 +86,8 @@ get_header();
         <h2 class="">Testimonials</h2>
         <div class="col-md-4">
           <div class="review-section">
-            <div>
-              5 stars
+            <div class="review-star">
+               &#9733  &#9733  &#9733 &#9733  &#9733
             </div>
             <p>
               "... I would highly recommend James if you want a one-on-one, hands on, individual who wants to help you get better and help you better understand where your body vulnerabilities are."
@@ -99,8 +99,8 @@ get_header();
         </div>
         <div class="col-md-4">
           <div class="review-section">
-            <div>
-              5 stars
+            <div class="review-star">
+              &#9733  &#9733  &#9733 &#9733  &#9733
             </div>
             <p>
               "... Without James' knowledge and expertise as a therapist and climber, this issue would not have been handled so comprehensively.  I strongly recommend his services to anyone with an injury or looking for injury prevention."
@@ -112,8 +112,8 @@ get_header();
         </div>
         <div class="col-md-4">
           <div class="review-section">
-            <div>
-              5 stars
+            <div class="review-star">
+              &#9733  &#9733  &#9733 &#9733  &#9733
             </div>
             <p>
               "...James offered support and reassurance that kept me motivated and helped me get through the healing process. I'd recommend him to anyone who needs physical therapy."
@@ -176,11 +176,11 @@ get_header();
             echo '</div>';
           }
               ?>
+      </a>
           <div class="home-blog-info">
-            <!-- <p><?php the_category();?></p> -->
-            <h4 class="home-blog-title"><?php the_title(); ?></h4>
+            <p class="home-blog-category">&gt; <?php the_category(', ','');?></p>
+            <a href="<?php the_permalink() ?>"><h4 class="home-blog-title"><?php the_title(); ?></h4></a>
           </div>
-        </a>
       </div>
       <?php
       endwhile;
