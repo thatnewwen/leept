@@ -23,7 +23,7 @@ get_header();
     <div class="row">
       <div class="col-md-4 col-md-push-7" style="padding: 0 30px;">
         <div class="row" style="margin-bottom: 20px">
-        <img class="col-xs-5 col-md-5 bio-image" src="http://leedpt.com/wp-content/themes/leept/img/profile-picture.jpg" />
+        <img class="col-xs-5 col-md-5 bio-image" src="http://leedpt.com/wp-content/uploads/2017/04/profile2017.jpg" />
         <div class="col-xs-7 col-md-7 contact">
           <p><b>p:</b> <a href="tel: 1-847-957-3137">(847) 957-3137</a></p>
           <p><b>f:</b> <a href="tel: 1-866-722-3137">(866) 722-3137</a></p>

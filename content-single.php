@@ -12,13 +12,13 @@
     <div class="post-comment"> <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a></div>
     <div class="clear"></div>
   </div> <!-- postmeta -->
-  <?php 
+  <!-- <?php
         if (has_post_thumbnail() ){
 			echo '<div class="post-thumb">';
             the_post_thumbnail();
 			echo '</div>';
 		}
-        ?>
+        ?> -->
   <div class="entry-content">
     <?php the_content(); ?>
     <?php
@@ -27,7 +27,7 @@
             'after'  => '</div>',
         ) );
         ?>
-    <div class="postmeta">
+    <!-- <div class="postmeta">
       <div class="post-categories">
         <?php the_category(); ?>
       </div>
@@ -35,11 +35,11 @@
        <?php the_tags(); ?>
       </div>
       <div class="clear"></div>
-    </div><!-- postmeta --> 
+    </div> -->
   </div><!-- .entry-content -->
-  
-  <footer class="entry-meta">
+
+  <!-- <footer class="entry-meta">
     <?php edit_post_link( __( 'Edit', 'twenty-minutes' ), '<span class="edit-link">', '</span>' ); ?>
-  </footer> <!-- .entry-meta --> 
-  
+  </footer> -->
+
 </article>
