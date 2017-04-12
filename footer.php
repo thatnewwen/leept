@@ -8,7 +8,7 @@
  */
 ?>
 <div id="footer-wrapper">
-    	<div class="container">
+    	<div id="contact"  class="container">
     	  <form class="footer-form" action="https://formspree.io/your@email.com"
     	  method="POST">
     		<h3 class="footer-form-title">Contact</h3>

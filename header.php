@@ -39,20 +39,20 @@
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
            </button>
-           <a class="navbar-brand" href="#">LEEPT</a>
+           <a class="navbar-brand" href="<?php echo home_url( '/' );?>">LEEPT</a>
          </div>
 
          <!-- Collect the nav links, forms, and other content for toggling -->
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
            <ul class="nav navbar-nav">
-             <li><a href="#about">About</a></li>
-             <li><a href="#testimonals">Testimonials</a></li>
-             <li><a href="#faq">FAQ</a></li>
+             <li><a href="<?php echo home_url( '/#about' );?>">About</a></li>
+             <li><a href="<?php echo home_url( '/#testimonials' );?>">Testimonials</a></li>
+             <li><a href="<?php echo home_url( '/#faq' );?>">FAQ</a></li>
            </ul>
            <ul class="nav navbar-nav navbar-right">
-             <li><a href="#">Blog</a></li>
-             <li><a href="#">Schedule</a></li>
-             <li><a href="#contact">Contact</a></li>
+             <li><a href="<?php echo home_url( '/blog' );?>">Blog</a></li>
+             <li><a href="<?php echo home_url( '/blog' );?>">Schedule</a></li>
+             <li><a href="<?php echo home_url( '/#contact' );?>">Contact</a></li>
            </ul>
          </div><!-- /.navbar-collapse -->
        </div><!-- /.container-fluid -->

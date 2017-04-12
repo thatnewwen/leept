@@ -28,7 +28,6 @@ get_header(); ?>
                </div>
             </section><!-- section-->
    
-     <?php get_sidebar();?>      
     <div class="clear"></div>
     </div><!-- .pagewraps --> 
  </div><!-- .container --> 
