@@ -12,7 +12,7 @@
 
 get_header(); ?>
 
-	<div class="container">
+	<div class="top container">
       <div class="pagewraps">      
     		 <section class="site-content-wrap"> 
                 <div class="contentbox">

@@ -10,7 +10,7 @@
  * @package Twenty Minutes
  */
 get_header(); ?>
-	<div class="container">
+	<div class="top container">
       <div class="pagewraps">      
     		
                 <div class="contentbox">

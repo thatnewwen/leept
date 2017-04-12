@@ -25,7 +25,7 @@
 <body <?php body_class(); ?>>
 
   <div id="menubar">
-     <div class="container">
+     <div class="top container">
     <div class="toggle">
         <a class="toggleMenu" href="<?php echo esc_url('#');?>"><?php _e('Menu','twenty-minutes'); ?></a>
      </div><!-- toggle -->
