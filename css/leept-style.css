@@ -11,6 +11,10 @@ nav{
 	z-index: 10;
 }
 
+ul{
+	list-style: none;
+}
+
 .navbar{
 	margin-bottom: 0px;
 }
@@ -249,16 +253,6 @@ h1{
 }
 
 .home-blog-post a:hover .home-blog-title{
-
-}
-
-footer{
-  color: #fff;
-  background-color: #262626;
-  height: 50vh;
-}
-
-footer form{
 
 }
 
@@ -515,4 +509,44 @@ footer form{
 */
 .site-content-wrap .thumbbox{
 	height: 180px;
+}
+
+.single-format-standard{
+	margin-top: 50px;
+}
+
+.single-format-standard #menubar{
+	border: none;
+}
+
+.single-format-standard .entry-content *{
+	  line-height: inherit;
+    font-size: 18px;
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    font-weight: 400;
+}
+
+.single-format-standard .entry-content strong{
+	    font-weight: 700;
+}
+
+.single-format-standard .entry-title{
+	text-transform: none;
+    font-size: 36px !important;
+    line-height: 1.04;
+    letter-spacing: -.028em;
+    margin-left: -5px;
+		padding: 0;
+		border:none;
+}
+
+.single-format-standard .post-navigation{
+	display: none;
+}
+
+.single-format-standard .post-comment{
+	padding-left: 20px;
+}
+aside.widget ul{
+	list-style: none;
 }
