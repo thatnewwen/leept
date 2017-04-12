@@ -114,8 +114,8 @@ ol.comment-list li{list-style:none;
 }
 .container{ width:1150px; margin:0 auto; position:relative;}
 /*header menu css*/
-#menubar{ background-color:#fff; border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
-.toggle{display: block;}
+/*#menubar{ background-color:#fff; border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
+*/.toggle{display: block;}
 .toggle a{ color:#ffffff; background:url(images/mobilemenu.png) no-repeat right center #da3813; padding:10px 10px; font-size:16px; text-align:left; display:none;}
 .toggle a:hover{color:#ffffff !important;}
 .sitenav{ padding:0; }
@@ -174,7 +174,7 @@ a.ReadMore:hover{ background-color:#865628; color:#fff; }
 -------------------------------------------------------------- */
 .site-content-wrap{ width:855px; float:left;}
 h1.entry-title{ font-size:18px !important; border-bottom:1px solid #eeeeee; padding:0 0 15px 0; margin:0 0 15px 0; font-weight:bold; text-transform:uppercase;}
-.contentbox{ background-color:#fff; padding:25px;}
+.contentbox{ background-color:#fff; padding:0 25px;}
 .fullwidth{ width:100%; float:none;}
 .fullwidth p{ margin-bottom:15px;}
 .pagewraps{ padding:25px 0;}
@@ -286,3 +286,7 @@ body.wp-custom-logo .logo h1{display:none;}
 .infomessage1{ padding: 40px 0 20px 0;}
 .textwidget select{ width:100%;}
 table{ width:100%}
+
+.top.container{
+    padding-top: 30px;
+}

@@ -81,7 +81,7 @@ get_header();
       </div>
     </div>
   </div>
-    <div id="testimonals" class="container review">
+    <div id="testimonials" class="container review">
       <div class="row text-center">
         <h2 class="">Testimonials</h2>
         <div class="col-md-4">

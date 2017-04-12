@@ -12,7 +12,7 @@
 
 get_header(); ?>
 
-	<div class="container">
+	<div class="top container">
       <div class="pagewraps">      
     		 <section class="site-content-wrap"> 
                 <div class="contentbox">
@@ -28,7 +28,6 @@ get_header(); ?>
                </div>
             </section><!-- section-->
    
-     <?php get_sidebar();?>      
     <div class="clear"></div>
     </div><!-- .pagewraps --> 
  </div><!-- .container --> 

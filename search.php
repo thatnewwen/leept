@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<div class="container">
+<div class="top container">
      <div class="pagewraps">
      <?php get_sidebar('left');?>   
         <section class="site-content-wrap">

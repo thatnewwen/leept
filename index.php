@@ -12,7 +12,7 @@
 
 get_header();
 ?>
-<div class="container" style="padding-top:30px">
+<div class="container">
      <div class="pagewraps">
         <section class="site-content-wrap">
 					<?php
