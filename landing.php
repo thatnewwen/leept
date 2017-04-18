@@ -12,17 +12,17 @@ get_header();
         <h1 class="header-title"><?php esc_attr(bloginfo( 'name' )); ?></h1>
         <?php $description = get_bloginfo( 'description', 'display' );
         if ( $description || is_customize_preview() ) : ?>
-          <span class="header-sentence"><?php echo $description; ?></span>
-        <?php endif; ?>
-      </div>
+        <span class="header-sentence"><?php echo $description; ?></span>
+      <?php endif; ?>
     </div>
   </div>
+</div>
 
-  <div id="about" class="container intro">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-4 col-md-push-7" style="padding: 0 30px;">
-        <div class="row" style="margin-bottom: 20px">
+<div id="about" class="container intro">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4 col-md-push-7" style="padding: 0 30px;">
+      <div class="row" style="margin-bottom: 20px">
         <img class="col-xs-5 col-md-5 bio-image" src="http://leedpt.com/wp-content/uploads/2017/04/profile2017.jpg" />
         <div class="col-xs-7 col-md-7 contact">
           <p><b>p:</b> <a href="tel: 1-847-957-3137">(847) 957-3137</a></p>
@@ -40,154 +40,157 @@ get_header();
             </li>
           </ul>
         </div>
-        </div>
-          <div class="text-center" style="font-size: 16px; margin-bottom: 15px;">
-          <a style="color:#E74A33" href="https://leedpt.setmore.com/">Inquire</a> <span style="padding: 0 15px;">|</span> <a style="color:#E74A33" href="https://leedpt.setmore.com/">Schedule an Appointment</a>
-          </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11849.939413321361!2d-87.7501261!3d42.0542257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62bf3b2a7a1887c8!2sLee+Physical+Therapy!5e0!3m2!1sen!2sus!4v1489361069410" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <p class="text-center" style="margin: 0 10px;">Home service in the <b>Greater Chicago Area</b></p>
       </div>
-      <div class="col-md-6 col-md-offset-1 col-md-pull-4 about">
-        <div class="borde-top"></div>
-        <h3>Mission</h3>
-        <p>Lee Physical Therapy serves the Chicago community and is dedicated to quick recovery in order to safely return to activities you enjoy the most. We stay up to date with current sport specific movements and help you with hands-on manual therapy and guided exercises to facilitate movement, accelerate healing, minimize pain, and improve strength.</p>
-
-        <h3>Dr. James Lee PT, DPT, FAAOMPT</h3>
-        <p>As a native of Chicago, James has been a Doctor of Physical Therapy since 2010 and he has a strong background in treating all orthopedic conditions. In 2016 James was recognized by  Fellow of the America Association of Manual Physical Therapists for his competence and expertise in advanced clinical, analytical, and hands-on skills in the treatment of musculoskeletal orthopedic movement disorders.</p>
-
-        <p>He has been rock climbing for 11 years and accented routes in different corners of the world. Due to his enjoyment for climbing, has come to specialize in treating many climbing injuries from tendon strains, pulley injuries, shoulder pain, cervical nerve impingement, medial epicondylitis, etc.</p>
-
+      <div class="text-center" style="font-size: 16px; margin-bottom: 15px;">
+        <a style="color:#E74A33" href="<?php echo home_url( '/#contact' );?>">Inquire</a>
+        <span style="padding: 0 15px;">|</span>
+        <a style="color:#E74A33" target="_blank" href="https://leedpt.setmore.com/">Schedule an Appointment</a>
       </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11849.939413321361!2d-87.7501261!3d42.0542257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62bf3b2a7a1887c8!2sLee+Physical+Therapy!5e0!3m2!1sen!2sus!4v1489361069410&z=10" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <p class="text-center" style="margin: 5px 10px;font-size: 16px;">Home service in the <b>Greater Chicago Area</b></p>
     </div>
+    <div class="col-md-6 col-md-offset-1 col-md-pull-4 about">
+      <div class="borde-top"></div>
+      <h3>Mission</h3>
+      <p>Lee Physical Therapy serves the Chicago community and is dedicated to quick recovery in order to safely return to activities you enjoy the most. We stay up to date with current sport specific movements and help you with hands-on manual therapy and guided exercises to facilitate movement, accelerate healing, minimize pain, and improve strength.</p>
 
+      <h3>Dr. James Lee PT, DPT, FAAOMPT</h3>
+      <p>As a native of Chicago, James has been a Doctor of Physical Therapy since 2010 and he has a strong background in treating all orthopedic conditions. In 2016 James was recognized by  Fellow of the America Association of Manual Physical Therapists for his competence and expertise in advanced clinical, analytical, and hands-on skills in the treatment of musculoskeletal orthopedic movement disorders.</p>
 
+      <p>He has been rock climbing for 11 years and accented routes in different corners of the world. Due to his enjoyment for climbing, has come to specialize in treating many climbing injuries from tendon strains, pulley injuries, shoulder pain, cervical nerve impingement, medial epicondylitis, etc.</p>
+
+    </div>
   </div>
 
-  <div class="container bio" >
-    <div class="row">
-      <div class="col-md-6">
-      </div>
-      <div class="col-md-6">
-        <div class="bio-text">
+
+</div>
+
+<div class="container bio" >
+  <div class="row clear">
+      <div class="bio-section">
         <h3>Manual Therapy</h3>
         <p>Avoid the endless, repetitive exercises that are commonly attributed to physical therapy. Get direct hands on treatment to mobilize your joints, release nerve tension and work to target muscles that improve motor control. Each session is 1 hour. With manual therapy plus guided exercises to retrain your muscles, you will feel and move better in a shorter period of time.</p>
-
+      </div>
+      <div class="bio-wide-img" id="bio-wide-bottom" style="background-image:url(http://leedpt.com/wp-content/uploads/2017/04/landing_homeSession.jpg)"></div>
+      <div class="bio-section">
         <h3>Home Sessions</h3>
         <p>Physical therapy is provided in the comfort and convenience of your own home or work space. A portable treatment table is brought in and set up for complete care.</p>
-
+      </div>
+      <div class="bio-wide-img" id="bio-wide-top" style="background-image:url(http://leedpt.com/wp-content/uploads/2017/04/landing_bouldering.jpg)"></div>
+      <div class="bio-section">
         <h3>Education</h3>
         <p>Physical therapists are the movement experts in medicine. Movement in dysfunction over time may cause certain parts of your body to break down and lead to pain. Learn how to safely manage your condition, modify activities, reduce fear avoidance, take control and be confident with your movement. Our ultimate goal is to train you out of therapy into full independence.</p>
-        </div>
       </div>
+      <div style="clear: both"></div>
+  </div>
+</div>
+<div id="testimonals" class="container review">
+  <div class="row text-center">
+    <h2 class="">Testimonials</h2>
+    <div class="col-md-4">
+      <div class="review-section">
+        <div class="review-star">
+          &#9733  &#9733  &#9733 &#9733  &#9733
+        </div>
+        <p>
+          "... I would highly recommend James if you want a one-on-one, hands on, individual who wants to help you get better and help you better understand where your body vulnerabilities are."
+        </p>
+        <p>
+          - David C.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="review-section">
+        <div class="review-star">
+          &#9733  &#9733  &#9733 &#9733  &#9733
+        </div>
+        <p>
+          "... Without James' knowledge and expertise as a therapist and climber, this issue would not have been handled so comprehensively.  I strongly recommend his services to anyone with an injury or looking for injury prevention."
+        </p>
+        <p>
+          - Patrick H.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="review-section">
+        <div class="review-star">
+          &#9733  &#9733  &#9733 &#9733  &#9733
+        </div>
+        <p>
+          "...James offered support and reassurance that kept me motivated and helped me get through the healing process. I'd recommend him to anyone who needs physical therapy."
+        </p>
+        <p>
+          - Holly P.
+        </p>
+      </div>
+    </div>
+    <div class="text-center">
+      <a class="btn btn-default" href="https://goo.gl/maps/JWcFRjE1vBC2" target="_blank">Leave a review</a>
     </div>
   </div>
-    <div id="testimonials" class="container review">
-      <div class="row text-center">
-        <h2 class="">Testimonials</h2>
-        <div class="col-md-4">
-          <div class="review-section">
-            <div class="review-star">
-               &#9733  &#9733  &#9733 &#9733  &#9733
-            </div>
-            <p>
-              "... I would highly recommend James if you want a one-on-one, hands on, individual who wants to help you get better and help you better understand where your body vulnerabilities are."
-            </p>
-            <p>
-              - David C.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="review-section">
-            <div class="review-star">
-              &#9733  &#9733  &#9733 &#9733  &#9733
-            </div>
-            <p>
-              "... Without James' knowledge and expertise as a therapist and climber, this issue would not have been handled so comprehensively.  I strongly recommend his services to anyone with an injury or looking for injury prevention."
-            </p>
-            <p>
-              - Patrick H.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="review-section">
-            <div class="review-star">
-              &#9733  &#9733  &#9733 &#9733  &#9733
-            </div>
-            <p>
-              "...James offered support and reassurance that kept me motivated and helped me get through the healing process. I'd recommend him to anyone who needs physical therapy."
-            </p>
-            <p>
-              - Holly P.
-            </p>
-          </div>
-        </div>
-        <div class="text-center">
-          <a class="btn btn-default" href="https://goo.gl/maps/JWcFRjE1vBC2" target="_blank">Leave a review</a>
-        </div>
-      </div>
+</div>
+
+<div id="faq" class="container faq">
+  <div class="row text-center">
+    <h2>FAQ</h2>
+  </div>
+  <div class="row">
+    <div class="home-faq col-md-4 col-md-offset-2">
+      <h4>Q. How many eggs can you eat in one day?</h4>
+      <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
     </div>
-
-    <div id="faq" class="container faq">
-      <div class="row text-center">
-        <h2>FAQ</h2>
-      </div>
-      <div class="row">
-        <div class="home-faq col-md-4 col-md-offset-2">
-          <h4>Q. How many eggs can you eat in one day?</h4>
-          <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
-        </div>
-        <div class="home-faq col-md-4" style="margin-bottom: 0px">
-          <h4>Q. How many eggs can you eat in one day?</h4>
-          <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="home-faq col-md-4 col-md-offset-2">
-          <h4>Q. How many eggs can you eat in one day?</h4>
-          <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
-        </div>
-        <div class="home-faq col-md-4">
-          <h4>Q. How many eggs can you eat in one day?</h4>
-          <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
-        </div>
-      </div>
-      <div class="row text-center">
-        <a class="btn btn-alt" href="">More FAQ</a>
-      </div>
+    <div class="home-faq col-md-4" style="margin-bottom: 0px">
+      <h4>Q. How many eggs can you eat in one day?</h4>
+      <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
     </div>
+  </div>
+  <div class="row">
+    <div class="home-faq col-md-4 col-md-offset-2">
+      <h4>Q. How many eggs can you eat in one day?</h4>
+      <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
+    </div>
+    <div class="home-faq col-md-4">
+      <h4>Q. How many eggs can you eat in one day?</h4>
+      <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
+    </div>
+  </div>
+  <div class="row text-center">
+    <a class="btn btn-alt" href="">More FAQ</a>
+  </div>
+</div>
 
-    <div class="container blog">
-      <div class="row text-center">
-        <h2>Blog</h2>
-      </div>
-      <div class="row">
-      <?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
+<div class="container blog">
+  <div class="row text-center">
+    <h2>Blog</h2>
+  </div>
+  <div class="row">
+    <?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
 
-      <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+    <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
       <div class="col-md-4 home-blog-post">
-      <a href="<?php the_permalink() ?>">
-        <?php
-              if (has_post_thumbnail() ){
+        <a href="<?php the_permalink() ?>">
+          <?php
+          if (has_post_thumbnail() ){
             echo '<div class="home-blog-thumb">';
-                  the_post_thumbnail();
+            the_post_thumbnail();
             echo '</div>';
           }
-              ?>
-      </a>
-          <div class="home-blog-info">
-            <p class="home-blog-category">&gt; <?php the_category(', ','');?></p>
-            <a href="<?php the_permalink() ?>"><h4 class="home-blog-title"><?php the_title(); ?></h4></a>
-          </div>
+          ?>
+        </a>
+        <div class="home-blog-info">
+          <p class="home-blog-category">&gt; <?php the_category(', ','');?></p>
+          <a href="<?php the_permalink() ?>"><h4 class="home-blog-title"><?php the_title(); ?></h4></a>
+        </div>
       </div>
       <?php
-      endwhile;
-      wp_reset_postdata();
-      ?>
-      </div>
-    </div>
+    endwhile;
+    wp_reset_postdata();
+    ?>
+  </div>
+</div>
 <?php get_footer(); ?>
 </div> <!-- /container -->
 

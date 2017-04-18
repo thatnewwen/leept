@@ -51,7 +51,7 @@
            </ul>
            <ul class="nav navbar-nav navbar-right">
              <li><a href="<?php echo home_url( '/blog' );?>">Blog</a></li>
-             <li><a href="<?php echo home_url( '/blog' );?>">Schedule</a></li>
+             <li><a target="_blank" href="https://leedpt.setmore.com/">Schedule</a></li>
              <li><a href="<?php echo home_url( '/#contact' );?>">Contact</a></li>
            </ul>
          </div><!-- /.navbar-collapse -->
