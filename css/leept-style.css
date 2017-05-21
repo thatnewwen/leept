@@ -158,13 +158,19 @@ h1{
   width: 20px;
 }
 
+.container.review{
+  color: #fff;
+  background-color:#e35f4c;
+  width: 100%;
+  height: auto;
+  padding: 50px 8.3%;
+}
+
 .container.bio{
-  height: 100vh;
+  height: 100%;
   margin: 0;
 	padding: 50px 8.3%;
 	width: 100%;
-  color: #fff;
-  background-color:#e35f4c;
 }
 
 .bio .bio-wide-img{
@@ -236,6 +242,7 @@ h1{
 
  .review-section .review-star{
 	 font-size: 18px;
+   margin-bottom: 10px;
  }
 
 .blog{
@@ -611,6 +618,16 @@ aside.widget ul{
 	list-style: none;
 }
 
+.section-title{
+  margin-top: 10px;
+}
+
 #sidebar ul li a{
 	padding: 0;
+}
+
+@media (max-width: 600px) {
+  .container.bio {
+    height: auto;
+  }
 }

@@ -26,9 +26,7 @@
 
   <div id="menubar">
      <div class="top container">
-    <div class="toggle">
-        <a class="toggleMenu" href="<?php echo esc_url('#');?>"><?php _e('Menu','twenty-minutes'); ?></a>
-     </div><!-- toggle -->
+    
      <nav class="navbar navbar-fixed-top navbar-default">
        <div class="container-fluid">
          <!-- Brand and toggle get grouped for better mobile display -->

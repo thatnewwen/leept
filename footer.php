@@ -25,7 +25,7 @@
     	    <textarea type="text" name="message" id="textarea1" class="textarea input__field input__field--madoka"></textarea>
     	    <label class="input__label input__label--madoka" for="textarea1">	<svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none"> <path d="m0,0l404,0l0,77l-404,0l0,-77z"/></svg>				<span class="input__label-content input__label-content--madoka">Message</span></label>
     	  </span>
-    	  <input class="submit" type="submit" value="Send">
+    	  <input class="btn btn-alt" type="submit" value="Send">
     	</form>
     	<?php 
     	if (   is_active_sidebar( 'footer-widget-area'  )
