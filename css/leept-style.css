@@ -170,10 +170,12 @@ h1{
 .bio .bio-wide-img{
 	text-align: center;
 	height: 170px;
-	width: 100%;;
+	width: 100%;
 	background-size: cover;
 	margin-top: 25px;
 }
+
+.bio-wide-img {}
 
 @media (min-width: 769px){
 	.bio .bio-section{
@@ -186,6 +188,14 @@ h1{
 		width: 50%;
 	}
 }
+
+/*.bio .row {
+  display: flex;
+}
+
+.bio .row div {
+  width: 50%;
+}*/
 
 /*.bio .bio-wide#bio-wide-top{
 }
