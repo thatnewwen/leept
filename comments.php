@@ -70,8 +70,8 @@ if ( post_password_required() )
 
 	<?php
 		comment_form( array(
-			// 'title_reply_before' => '<h4 id="reply-title" class="comment-reply-title">',
-			// 'title_reply_after'  => '</h4>',
+			'title_reply_before' => '<h4 id="reply-title" class="comment-reply-title">',
+			'title_reply_after'  => '</h4>',
 		) );
 	?>
 
