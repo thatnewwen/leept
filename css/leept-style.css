@@ -235,7 +235,7 @@ h1{
 .review-section{
   border: 2px #fff solid;
   border-radius: 5px;
-  min-height: 210px;
+  height: 230px;
   padding: 20px;
   margin-top: 20px;
 }
@@ -626,8 +626,75 @@ aside.widget ul{
 	padding: 0;
 }
 
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#call-modal{
+  display: none;
+}
+
+.modal-dialog{
+  width: 80vw;
+}
+
+.modal-content .modal-body{
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-footer{
+  border-top: none;
+}
+
+.row{
+  margin: 0px;
+}
+
 @media (max-width: 600px) {
   .container.bio {
     height: auto;
+  }
+
+  #call-modal{
+    display: block;
+  }
+
+  .header{
+    background: url(../images/leept-landing.jpg) no-repeat left center fixed;
+    height: 45vh;
+  }
+
+  .overlay{
+    height: 45%;
+  }
+
+  .header-logo{
+    width: 90px;
+    height: 90px;
+  }
+
+  .header-title{
+    font-size: 22px;
+  }
+
+  .header-sentence{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
   }
 }

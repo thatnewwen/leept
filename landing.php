@@ -13,6 +13,7 @@ get_header();
         <?php $description = get_bloginfo( 'description', 'display' );
         if ( $description || is_customize_preview() ) : ?>
         <span class="header-sentence"><?php echo $description; ?></span>
+        <button id="call-modal" type="button" class="btn btn-alt" data-toggle="modal" data-target="#myModal">Contact Now</button>
       <?php endif; ?>
     </div>
   </div>
@@ -22,7 +23,7 @@ get_header();
   <!-- Example row of columns -->
   <div class="row">
     <div class="col-md-4 col-md-push-7" style="padding: 0 30px;">
-      <div class="row" style="margin-bottom: 20px">
+      <div class="row" style="margin: 0 -20px 20px -20px">
         <img class="col-xs-5 col-md-5 bio-image" src="http://leedpt.com/wp-content/uploads/2017/04/profile2017.jpg" />
         <div class="col-xs-7 col-md-7 contact">
           <p><b>p:</b> <a href="tel: 1-847-957-3137">(847) 957-3137</a></p>
@@ -205,3 +206,30 @@ get_header();
 
 </body>
 </html>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Contact Now</h4>
+      </div>
+      <div class="modal-body">
+        <a href="#">Phone - (847) 957-3137</a>
+      </div>
+      <div class="modal-body">
+        <a href="#">Email - jamesleedpt@gmail.com</a>
+      </div>
+      <div class="modal-body">
+        <a href="#">Facebook Messenger</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
