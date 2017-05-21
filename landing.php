@@ -113,7 +113,7 @@ get_header();
   </div>
 </div>
 <div class="container bio" >
-  <div class="row">
+  <div class="row" style="margin: 0px">
     <h2 class="text-center section-title">About</h2>
       <div class="bio-section">
         <h3>Manual Therapy</h3>
@@ -218,13 +218,13 @@ get_header();
         <h4 class="modal-title">Contact Now</h4>
       </div>
       <div class="modal-body">
-        <a href="#">Phone - (847) 957-3137</a>
+        <a href="tel:8479573137">Phone - (847) 957-3137</a>
       </div>
       <div class="modal-body">
-        <a href="#">Email - jamesleedpt@gmail.com</a>
+        <a href="mailto:jamesleedpt@gmail.com">Email - jamesleedpt@gmail.com</a>
       </div>
       <div class="modal-body">
-        <a href="#">Facebook Messenger</a>
+        <a href="https://m.me/LEEDPT">Facebook Messenger</a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
