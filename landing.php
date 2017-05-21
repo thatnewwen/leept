@@ -66,7 +66,7 @@ get_header();
 </div>
 
 <div class="container bio" >
-  <div class="row clear">
+  <div class="row">
       <div class="bio-section">
         <h3>Manual Therapy</h3>
         <p>Avoid the endless, repetitive exercises that are commonly attributed to physical therapy. Get direct hands on treatment to mobilize your joints, release nerve tension and work to target muscles that improve motor control. Each session is 1 hour. With manual therapy plus guided exercises to retrain your muscles, you will feel and move better in a shorter period of time.</p>
@@ -81,7 +81,6 @@ get_header();
         <h3>Education</h3>
         <p>Physical therapists are the movement experts in medicine. Movement in dysfunction over time may cause certain parts of your body to break down and lead to pain. Learn how to safely manage your condition, modify activities, reduce fear avoidance, take control and be confident with your movement. Our ultimate goal is to train you out of therapy into full independence.</p>
       </div>
-      <div style="clear: both"></div>
   </div>
 </div>
 <div id="testimonals" class="container review">
@@ -137,27 +136,37 @@ get_header();
     <h2>FAQ</h2>
   </div>
   <div class="row">
-    <div class="home-faq col-md-4 col-md-offset-2">
-      <h4>Q. How many eggs can you eat in one day?</h4>
-      <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
+    <div class="home-faq col-md-8 col-md-offset-2">
+      <h4>Q. What is manual therapy? What differentiates you from the other PT places?</h4>
+      <p>Manual therapy is also called manipulative therapy. It uses advanced techniques to move around joints and soft tissue in order to restore balance to your body.
+         Many of the methods may be perceived as chiropractic. Our goal is to get you moving better and feeling confident that your body can handle the activities you love doing. </p>
+      <p>Unlike the vast majority of physical therapy clinics where you only see the therapist for 15 mins and spend the rest of the session doing exercises,
+        at Lee PT you will be treated by our skilled therapist for a FULL hour. Because of the high intensity of the treatment, you will get back to do what you love the most in fewer visits.</p>
     </div>
-    <div class="home-faq col-md-4" style="margin-bottom: 0px">
-      <h4>Q. How many eggs can you eat in one day?</h4>
-      <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
+    <div class="home-faq col-md-8 col-md-offset-2">
+      <h4>Q. Where are you located?</h4>
+      <p>We bring our mobile clinic to you.  A treatment table is set up and therapy is provided in your own home or office at your comfort.
+        Your home exercise program will be tailored to your personal environment.</p>
     </div>
   </div>
   <div class="row">
-    <div class="home-faq col-md-4 col-md-offset-2">
-      <h4>Q. How many eggs can you eat in one day?</h4>
-      <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
+    <div class="home-faq col-md-8 col-md-offset-2">
+      <h4>Q. Do you accept insurance?</h4>
+      <p>Lee Physical Therapy is considered to be an “out-of-network” provider to your insurance company.</p>
+      <p>We are a cash based practice, which means that we do not work directly with insurance companies.
+        However we provide the proper documents for you to submit claims to your insurance company to possibly receive reimbursements.
+        Without having to meet the demands of insurance companies, our therapists focus on addressing your individual needs 100%.</p>
+      <p>The importance of this investment you make to your body is our primary focus.</p>
     </div>
-    <div class="home-faq col-md-4">
-      <h4>Q. How many eggs can you eat in one day?</h4>
-      <p>That is a good question. I think if you are older, the number is two. Otherwise, you can eat up to 400 eggs a day and still be healthy!</p>
+    <div class="home-faq col-md-8 col-md-offset-2">
+      <h4>Q. Do I need a physician’s prescription to see you?</h4>
+      <p>Yes, Illinois law requires you to have a prescription for physical therapy.</p>
+      <p>If you do not have a prescription however, on your first visit we perform a full 1 hour detailed evaluation to see exactly where the problem is.
+        This eval is then faxed and signed for approval from your physician and you are good to go.</p>
     </div>
   </div>
   <div class="row text-center">
-    <a class="btn btn-alt" href="">More FAQ</a>
+    <a class="btn btn-alt" href="<?php echo home_url( '/#contact' );?>">Ask a question</a>
   </div>
 </div>
 
