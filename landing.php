@@ -13,6 +13,7 @@ get_header();
         <?php $description = get_bloginfo( 'description', 'display' );
         if ( $description || is_customize_preview() ) : ?>
         <span class="header-sentence"><?php echo $description; ?></span>
+        <button id="call-modal" type="button" class="btn btn-alt" data-toggle="modal" data-target="#myModal">Contact Now</button>
       <?php endif; ?>
     </div>
   </div>
@@ -22,7 +23,7 @@ get_header();
   <!-- Example row of columns -->
   <div class="row">
     <div class="col-md-4 col-md-push-7" style="padding: 0 30px;">
-      <div class="row" style="margin-bottom: 20px">
+      <div class="row" style="margin: 0 -20px 20px -20px">
         <img class="col-xs-5 col-md-5 bio-image" src="http://leedpt.com/wp-content/uploads/2017/04/profile2017.jpg" />
         <div class="col-xs-7 col-md-7 contact">
           <p><b>p:</b> <a href="tel: 1-847-957-3137">(847) 957-3137</a></p>
@@ -64,28 +65,9 @@ get_header();
 
 
 </div>
-
-<div class="container bio" >
-  <div class="row">
-      <div class="bio-section">
-        <h3>Manual Therapy</h3>
-        <p>Avoid the endless, repetitive exercises that are commonly attributed to physical therapy. Get direct hands on treatment to mobilize your joints, release nerve tension and work to target muscles that improve motor control. Each session is 1 hour. With manual therapy plus guided exercises to retrain your muscles, you will feel and move better in a shorter period of time.</p>
-      </div>
-      <div class="bio-wide-img" id="bio-wide-bottom" style="background-image:url(http://leedpt.com/wp-content/uploads/2017/04/landing_homeSession.jpg)"></div>
-      <div class="bio-section">
-        <h3>Home Sessions</h3>
-        <p>Physical therapy is provided in the comfort and convenience of your own home or work space. A portable treatment table is brought in and set up for complete care.</p>
-      </div>
-      <div class="bio-wide-img" id="bio-wide-top" style="background-image:url(http://leedpt.com/wp-content/uploads/2017/04/landing_bouldering.jpg)"></div>
-      <div class="bio-section">
-        <h3>Education</h3>
-        <p>Physical therapists are the movement experts in medicine. Movement in dysfunction over time may cause certain parts of your body to break down and lead to pain. Learn how to safely manage your condition, modify activities, reduce fear avoidance, take control and be confident with your movement. Our ultimate goal is to train you out of therapy into full independence.</p>
-      </div>
-  </div>
-</div>
 <div id="testimonals" class="container review">
   <div class="row text-center">
-    <h2 class="">Testimonials</h2>
+    <h2 class="section-title">Testimonials</h2>
     <div class="col-md-4">
       <div class="review-section">
         <div class="review-star">
@@ -125,15 +107,34 @@ get_header();
         </p>
       </div>
     </div>
-    <div class="text-center">
-      <a class="btn btn-default" href="https://goo.gl/maps/JWcFRjE1vBC2" target="_blank">Leave a review</a>
-    </div>
+  </div>
+  <div class="row text-center">
+    <a class="btn btn-alt" href="https://goo.gl/maps/JWcFRjE1vBC2" target="_blank">Leave a review</a>
+  </div>
+</div>
+<div class="container bio" >
+  <div class="row" style="margin: 0px">
+    <h2 class="text-center section-title">About</h2>
+      <div class="bio-section">
+        <h3>Manual Therapy</h3>
+        <p>Avoid the endless, repetitive exercises that are commonly attributed to physical therapy. Get direct hands on treatment to mobilize your joints, release nerve tension and work to target muscles that improve motor control. Each session is 1 hour. With manual therapy plus guided exercises to retrain your muscles, you will feel and move better in a shorter period of time.</p>
+      </div>
+      <div class="bio-wide-img" id="bio-wide-bottom" style="background-image:url(http://leedpt.com/wp-content/uploads/2017/04/landing_homeSession.jpg)"></div>
+      <div class="bio-section">
+        <h3>Home Sessions</h3>
+        <p>Physical therapy is provided in the comfort and convenience of your own home or work space. A portable treatment table is brought in and set up for complete care.</p>
+      </div>
+      <div class="bio-wide-img" id="bio-wide-top" style="background-image:url(http://leedpt.com/wp-content/uploads/2017/04/landing_bouldering.jpg)"></div>
+      <div class="bio-section">
+        <h3>Education</h3>
+        <p>Physical therapists are the movement experts in medicine. Movement in dysfunction over time may cause certain parts of your body to break down and lead to pain. Learn how to safely manage your condition, modify activities, reduce fear avoidance, take control and be confident with your movement. Our ultimate goal is to train you out of therapy into full independence.</p>
+      </div>
   </div>
 </div>
 
 <div id="faq" class="container faq">
   <div class="row text-center">
-    <h2>FAQ</h2>
+    <h2 class="section-title">FAQ</h2>
   </div>
   <div class="row">
     <div class="home-faq col-md-8 col-md-offset-2">
@@ -172,7 +173,7 @@ get_header();
 
 <div class="container blog">
   <div class="row text-center">
-    <h2>Blog</h2>
+    <h2 class="section-title">Blog</h2>
   </div>
   <div class="row">
     <?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
@@ -203,14 +204,32 @@ get_header();
 <?php get_footer(); ?>
 </div> <!-- /container -->
 
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
 </body>
 </html>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Contact Now</h4>
+      </div>
+      <div class="modal-body">
+        <a href="tel:8479573137">Phone - (847) 957-3137</a>
+      </div>
+      <div class="modal-body">
+        <a href="mailto:jamesleedpt@gmail.com">Email - jamesleedpt@gmail.com</a>
+      </div>
+      <div class="modal-body">
+        <a href="https://m.me/LEEDPT">Facebook Messenger</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
