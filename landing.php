@@ -137,11 +137,11 @@ get_header();
   </div>
   <div class="row">
     <div class="home-faq col-md-8 col-md-offset-2">
-      <h4>Q. What is manual therapy? What differentiates you from the other PT places?</h4>
-      <p>Manual therapy is also called manipulative therapy. It uses advanced techniques to move around joints and soft tissue in order to restore balance to your body.
-         Many of the methods may be perceived as chiropractic. Our goal is to get you moving better and feeling confident that your body can handle the activities you love doing. </p>
-      <p>Unlike the vast majority of physical therapy clinics where you only see the therapist for 15 mins and spend the rest of the session doing exercises,
-        at Lee PT you will be treated by our skilled therapist for a FULL hour. Because of the high intensity of the treatment, you will get back to do what you love the most in fewer visits.</p>
+      <h4>Q. What is manual therapy? What differentiates you from other clinics on the market?</h4>
+      <p>Manual therapy is a specialized area of physical therapy. It uses highly specific treatment approaches including manual techniques and therapeutic exercises.
+        Many of the methods may be perceived as chiropractic. Our goal is to get you moving better and feeling confident that your body can handle the activities you love doing. </p>
+      <p>Unlike the vast majority of physical therapy clinics where you see the therapist for 15 mins and then spend the rest of the session doing exercises, you will be treated by our skilled therapist for a FULL hour.
+        Because of the high intensity of treatment, you will get back to do what you love the most in fewer visits.</p>
     </div>
     <div class="home-faq col-md-8 col-md-offset-2">
       <h4>Q. Where are you located?</h4>
@@ -154,15 +154,15 @@ get_header();
       <h4>Q. Do you accept insurance?</h4>
       <p>Lee Physical Therapy is considered to be an “out-of-network” provider to your insurance company.</p>
       <p>We are a cash based practice, which means that we do not work directly with insurance companies.
-        However we provide the proper documents for you to submit claims to your insurance company to possibly receive reimbursements.
-        Without having to meet the demands of insurance companies, our therapists focus on addressing your individual needs 100%.</p>
-      <p>The importance of this investment you make to your body is our primary focus.</p>
+         However we provide the proper documents for you to submit claims to your insurance company to possibly receive reimbursements.
+         Without having to meet the demands of insurance companies, our therapists focus on addressing your individual needs 100%.</p>
+      <p>The  importance of this investment you make to your body is our primary focus.</p>
     </div>
     <div class="home-faq col-md-8 col-md-offset-2">
       <h4>Q. Do I need a physician’s prescription to see you?</h4>
       <p>Yes, Illinois law requires you to have a prescription for physical therapy.</p>
       <p>If you do not have a prescription however, on your first visit we perform a full 1 hour detailed evaluation to see exactly where the problem is.
-        This eval is then faxed and signed for approval from your physician and you are good to go.</p>
+        This eval is then faxed and signed for approval from your physician and you are good to go. </p>
     </div>
   </div>
   <div class="row text-center">
