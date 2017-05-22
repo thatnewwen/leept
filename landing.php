@@ -100,10 +100,11 @@ get_header();
           &#9733  &#9733  &#9733 &#9733  &#9733
         </div>
         <p>
-          "...James offered support and reassurance that kept me motivated and helped me get through the healing process. I'd recommend him to anyone who needs physical therapy."
+          "... I am climbing well again and I am trusting my finger more and more...
+          As a fellow climber, he could understand my frustration and this was very reassuring."
         </p>
         <p>
-          - Holly P.
+          - Dhruv M.
         </p>
       </div>
     </div>
@@ -167,7 +168,7 @@ get_header();
     </div>
   </div>
   <div class="row text-center">
-    <a class="btn btn-alt" href="<?php echo home_url( '/#contact' );?>">Ask a question</a>
+    <a class="btn btn-alt" href="https://m.me/LEEDPT" target="_blank">Ask a question</a>
   </div>
 </div>
 

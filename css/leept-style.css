@@ -51,6 +51,17 @@ ul{
   margin-left: 0px;
 }
 
+.navbar-default .navbar-toggle{
+	background-color: none;
+	border: none;
+	margin-right: 10px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background: none;
+}
+
+
 .header {
 	background: url(../images/leept-landing.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -681,7 +692,7 @@ aside.widget ul{
   }
 
   .header{
-    background: url(../images/leept-landing.jpg) no-repeat left center fixed;
+    background: url(../images/leept-landing.jpg) no-repeat 5% center fixed;
     height: 45vh;
   }
 
