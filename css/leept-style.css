@@ -289,7 +289,7 @@ h1{
   bottom: 20px;
   left: 40px;
   width: 70%;
-	height: 100px;
+	min-height: 100px;
 	background-color: rgba(255, 255, 255, .9);
   margin: 0;
 	padding: 10px 15px;
@@ -322,7 +322,7 @@ h1{
 
 .home-faq h4{
 	font-weight: 600;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .home-faq{
@@ -579,26 +579,26 @@ h1{
 	height: 180px;
 }
 
-.single-format-standard{
+.single-post{
 	margin-top: 70px;
 }
 
-.single-format-standard #menubar{
+.single-post #menubar{
 	border: none;
 }
 
-.single-format-standard .entry-content *{
+.single-post .entry-content *{
 	  line-height: inherit;
     font-size: 18px;
     font-family: Georgia,Cambria,"Times New Roman",Times,serif;
     font-weight: 400;
 }
 
-.single-format-standard .entry-content strong{
+.single-post .entry-content strong{
 	    font-weight: 700;
 }
 
-.single-format-standard .entry-title{
+.single-post .entry-title{
 	text-transform: none;
     font-size: 32px !important;
     line-height: 1.04;
@@ -608,11 +608,11 @@ h1{
 		border:none;
 }
 
-.single-format-standard .post-navigation{
+.single-post .post-navigation{
 	display: none;
 }
 
-.single-format-standard .post-comment{
+.single-post .post-comment{
 	padding-left: 20px;
 }
 
@@ -649,6 +649,10 @@ aside.widget ul{
 
 #call-modal{
   display: none;
+}
+
+#call-modal:focus, #call-modal:active{
+	color: #fff;
 }
 
 .modal-dialog{

@@ -58,8 +58,8 @@ get_header();
       <h3>Dr. James Lee PT, DPT, FAAOMPT</h3>
       <p>As a native of Chicago, James has been a Doctor of Physical Therapy since 2010 and he has a strong background in treating all orthopedic conditions. In 2016 James was recognized by  Fellow of the America Association of Manual Physical Therapists for his competence and expertise in advanced clinical, analytical, and hands-on skills in the treatment of musculoskeletal orthopedic movement disorders.</p>
 
-      <p>He has been rock climbing for 11 years and accented routes in different corners of the world. Due to his enjoyment for climbing, has come to specialize in treating many climbing injuries from tendon strains, pulley injuries, shoulder pain, cervical nerve impingement, medial epicondylitis, etc.</p>
-
+      <p>He has been rock climbing since 2009 and has been to various parts of the world to climb. Due to his passion for climbing,
+        James has come to specialize in treating many climbing injuries from tendon strains, pulley injuries, shoulder pain, cervical nerve impingement, medial epicondylopathy, etc.</p>
     </div>
   </div>
 
@@ -218,13 +218,13 @@ get_header();
         <h4 class="modal-title">Contact Now</h4>
       </div>
       <div class="modal-body">
-        <a href="tel:8479573137">Phone - (847) 957-3137</a>
+        Phone: <a href="tel:8479573137">(847) 957-3137</a>
       </div>
       <div class="modal-body">
-        <a href="mailto:jamesleedpt@gmail.com">Email - jamesleedpt@gmail.com</a>
+        Email: <a href="mailto:jamesleedpt@gmail.com">&#106;&#97;&#109;&#101;&#115;&#108;&#101;&#101;&#100;&#112;&#116;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
       </div>
       <div class="modal-body">
-        <a href="https://m.me/LEEDPT">Facebook Messenger</a>
+        Chat: <a href="https://m.me/LEEDPT">@LEEDPT</a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
