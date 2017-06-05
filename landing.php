@@ -53,13 +53,14 @@ get_header();
     <div class="col-md-6 col-md-offset-1 col-md-pull-4 about">
       <div class="borde-top"></div>
       <h3>Mission</h3>
-      <p>Lee Physical Therapy serves the Chicago community and is dedicated to quick recovery in order to safely return to activities you enjoy the most. We stay up to date with current sport specific movements and help you with hands-on manual therapy and guided exercises to facilitate movement, accelerate healing, minimize pain, and improve strength.</p>
+      <p>Lee Physical Therapy serves the Chicago community and is dedicated to quick recovery in order to safely return to activities you enjoy the most. Direct hands-on manual therapy and guided exercises will facilitate movement, accelerate healing, minimize pain, and improve strength.</p>
 
       <h3>Dr. James Lee PT, DPT, FAAOMPT</h3>
-      <p>As a native of Chicago, James has been a Doctor of Physical Therapy since 2010 and he has a strong background in treating all orthopedic conditions. In 2016 James was recognized by  Fellow of the America Association of Manual Physical Therapists for his competence and expertise in advanced clinical, analytical, and hands-on skills in the treatment of musculoskeletal orthopedic movement disorders.</p>
-
+      <p>As a native of Chicago, James has been a doctor of physical therapy since 2010 and he has a strong background in treating orthopedic conditions. In 2017 James completed his training and received his Fellowship title by the American Academy of Orthopeadic Manual Physical Therapists.
+        This title serves to recognize his competence and expertise in advanced clinical, analytical, and hands-on training in the treatment of musculoskeletal orthopedic movement disorders.</p>
       <p>He has been rock climbing since 2009 and has been to various parts of the world to climb. Due to his passion for climbing,
-        James has come to specialize in treating many climbing injuries from tendon strains, pulley injuries, shoulder pain, cervical nerve impingement, medial epicondylopathy, etc.</p>
+        James has come to specialize in treating many climbing injuries from tendon strains, pulley injuries, shoulder pain, cervical nerve impingement, medial epicondylopathy, etc.
+      </p>
     </div>
   </div>
 

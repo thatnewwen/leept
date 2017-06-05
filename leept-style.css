@@ -63,7 +63,10 @@ ul{
 
 
 .header {
-	background: url(../images/leept-landing.jpg) no-repeat center center fixed;
+	background: url(images/leept-landing-sufei.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -72,11 +75,12 @@ ul{
   color: white;
   flex-direction: row;
   font-family: 'Lato', 'sans-serif';
+	position: relative;
 }
 
 .overlay {
 	background: black;
-	opacity: 0.5;
+	opacity: 0.3;
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -357,7 +361,7 @@ h1{
 
 .bio-image{
   border-radius: 50%;
-	width: 150px;
+	/*width: 150px;*/
 }
 
 .submit{
@@ -682,6 +686,12 @@ aside.widget ul{
   /*display: none;*/
 }
 
+@media (min-width: 601px){
+	.bio-image{
+		width: 150px;
+	}
+}
+
 @media (max-width: 600px) {
   .container.bio {
     height: auto;
@@ -692,13 +702,19 @@ aside.widget ul{
   }
 
   .header{
-    background: url(../images/leept-landing.jpg) no-repeat 5% center fixed;
+    background: url(images/leept-landing-sufei.jpg);
+		background-position: 20% 35%;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
     height: 45vh;
+		margin: 0;
+		padding: 0;
   }
 
-  .overlay{
-    height: 45%;
-  }
+	.header .overlay{
+		left: 0;
+		top: 0;
+	}
 
   .header-logo{
     width: 90px;
@@ -726,4 +742,10 @@ aside.widget ul{
   .about-img-container {
     display: block;
   }
+}
+
+@media (max-width: 365px){
+	.intro#about .contact{
+		padding: 0;
+	}
 }

@@ -12,21 +12,21 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Decrease pain, restore motion, and enchance performace.">
-<meta name="author" content="James Lee">
-<title>LEEPT</title>
+<meta name="author" content="Dr. James Lee PT, DPT, FAAOMPT">
+<title>LEEPT - Lee Physical Therapy Chicago</title>
 <link rel="icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico">
 <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); ?>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link href="<?php bloginfo('template_directory'); ?>/css/leept-style.css" rel="stylesheet">
+<link href="<?php bloginfo('template_directory'); ?>/leept-style.css" rel="stylesheet">
 </head>
 <body <?php body_class(); ?>>
 
   <div id="menubar">
      <div class="top container">
-    
+
      <nav class="navbar navbar-fixed-top navbar-default">
        <div class="container-fluid">
          <!-- Brand and toggle get grouped for better mobile display -->
