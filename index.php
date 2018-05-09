@@ -1,48 +1,67 @@
 <?php
 /**
- * The template for displaying home page.
+ * The main template file
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
  *
- * @package Twenty Minutes
+ * @link https://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WordPress
+ * @subpackage Twenty_Seventeen
+ * @since 1.0
+ * @version 1.0
  */
 
-get_header();
-?>
-<div class="container">
-     <div class="pagewraps">
-        <section class="site-content-wrap">
-					<?php
-                    if ( have_posts() ) :
-                        // Start the Loop.
-                        while ( have_posts() ) : the_post();
-                            /*
-                             * Include the post format-specific template for the content. If you want to
-                             * use this in a child theme, then include a file called called content-___.php
-                             * (where ___ is the post format) and that will be used instead.
-                             */
-                            get_template_part( 'content' );
-                        endwhile;
-						// Previous/next post navigation.
-						the_posts_pagination( array(
-							'mid_size' => 2,
-							'prev_text' => __( 'Back', 'twenty-minutes' ),
-							'next_text' => __( 'Next', 'twenty-minutes' ),
-							'screen_reader_text' => __( 'Posts navigation', 'twenty-minutes' )
-						) );
+get_header(); ?>
 
-                    else :
-                        // If no content, include the "No posts found" template.
-                         get_template_part( 'no-results', 'index' );
+<div class="wrap">
+	<?php if ( is_home() && ! is_front_page() ) : ?>
+		<header class="page-header">
+			<h1 class="page-title"><?php single_post_title(); ?></h1>
+		</header>
+	<?php else : ?>
+	<header class="page-header">
+		<h2 class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
+	</header>
+	<?php endif; ?>
 
-                    endif;
-                    ?>
-             </section>
-        <?php get_sidebar();?>
-        <div class="clear"></div>
-    </div><!-- site-aligner -->
-</div><!-- content -->
-<?php get_footer(); ?>
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			<?php
+			if ( have_posts() ) :
+
+				/* Start the Loop */
+				while ( have_posts() ) : the_post();
+
+					/*
+					 * Include the Post-Format-specific template for the content.
+					 * If you want to override this in a child theme, then include a file
+					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+					 */
+					get_template_part( 'template-parts/post/content', get_post_format() );
+
+				endwhile;
+
+				the_posts_pagination( array(
+					'prev_text' => twentyseventeen_get_svg( array( 'icon' => 'arrow-left' ) ) . '<span class="screen-reader-text">' . __( 'Previous page', 'twentyseventeen' ) . '</span>',
+					'next_text' => '<span class="screen-reader-text">' . __( 'Next page', 'twentyseventeen' ) . '</span>' . twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ),
+					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentyseventeen' ) . ' </span>',
+				) );
+
+			else :
+
+				get_template_part( 'template-parts/post/content', 'none' );
+
+			endif;
+			?>
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+	<?php get_sidebar(); ?>
+</div><!-- .wrap -->
+
+<?php get_footer();
