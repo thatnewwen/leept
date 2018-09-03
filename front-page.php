@@ -38,7 +38,6 @@ get_header(); ?>
 					<div class="backgorund-intro">
 						<img src="/wordpress/wp-content/themes/LEEPT/assets/images/james.png">
 					</div>
-					<div class="background-review"></div>
 				</div>
 				<div class="wrap">
 					<div class="entry-content">
@@ -51,6 +50,17 @@ get_header(); ?>
 									<p>He has been rock climbing since 2009. With his passion for the sport and professional training in PT, James has come to specialize in treating many climbing injuries from tendon strains, pulley injuries, shoulder pain, etc. He is also a passionate advocate for active injury prevention.</p> 
 								</div>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel-content text-center">
+				<div class="wrap">
+					<header class="entry-header">
+						<h2 class="entry-title">Reviews</h2>
+					</header>
+					<div class="entry-content">
+						<div class="background-review">
 							<div id="review">
 								<div><p>"... I would highly recommend James if you want a one-on-one, hands on, individual who wants to help you get better and help you better understand where your body vulnerabilities are."</p></div>
 								<div><p>"... Without James' knowledge and expertise as a therapist and climber, this issue would not have been handled so comprehensively. I strongly recommend his services to anyone with an injury or looking for injury prevention."</p></div>
@@ -59,7 +69,6 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-
 			<div class="panel-content text-center" id="panel-location">
 				<div class="wrap">
 					<header class="entry-header">
@@ -91,69 +100,10 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-
-			<div class="panel-content text-center" id="panel-connect">			
-				<div class="wrap">
-					<header class="entry-header">
-						<h2 class="entry-title  text-center">Get in touch</h2>
-						
-					</header>
-					<div class="entry-content">
-						<div class="contact-info" >
-							<div class="flex-container">
-								<span><i class="fas fa-phone"></i><br/><b>phone</b><br/><a href="tel: 1-847-957-3137">(847) 957-3137</a></span>
-								<span><i class="fas fa-fax"></i><br/><b>fax</b> <br/><a href="tel: 1-866-722-3137">(866) 722-3137</a></span>
-								<span><i class="far fa-envelope"></i><br/><b>email</b> <br/><a href="mailto:james@leeptchicago.com">james@leeptchicago.com</a></span>	
-								<span><i class="fab fa-facebook-messenger"></i><br/><b>Messenger</b><br/><a href="http://m.me/leedpt">m.me/leedpt</a></span>
-							</div>												
-						</div>
-						<div class="contact-form" >
-							<h3 style="margin-bottom: 0">Got questions?</h3>
-							<h4 style="margin-bottom: 30px;padding-top: 0">Check out the <a href="">FAQ page</a> or send us a message.</h4>
-							<form action="https://formspree.io/james@leeptchicago.com" method="POST">
-								<span class="input input--minoru">
-									<input class="input__field input__field--minoru" type="text" id="input-1"  name="name">
-									<label class="input__label input__label--minoru" for="input-1" data-content="Name">
-										<span class="input__label-content input__label-content--minoru">Name</span>
-									</label>
-								</span>
-								<span class="input input--minoru">
-									<input class="input__field input__field--minoru" type="email" id="input-2"  name="email">
-									<label class="input__label input__label--minoru" for="input-2" data-content="Email">
-										<span class="input__label-content input__label-content--minoru">Email</span>
-									</label>
-								</span>
-								<span class="input input--minoru">
-									<textarea class="input__field input__field--minoru" type="text" id="input-3"  name="message" rows="2" ></textarea>
-									<label class="input__label input__label--minoru" for="input-3" data-content="Message">
-										<span class="input__label-content input__label-content--minoru">Message</span>
-									</label>
-								</span>
-								<input class="btn btn-alt" type="submit" value="Send" style="width:40%">
-							</form>
-						</div>
-						<div>
-							<h2 class="entry-title  text-center">Connect with us</h2>
-							<ul class="social">
-								<li>
-									<a href="https://www.facebook.com/LEEDPT/" target="_blank"><img class="social-icon" src="http://leedpt.com/wp-content/themes/leept/images/facebook.svg"></a>
-								</li>
-								<li>
-									<a href="https://www.instagram.com/jamesleedpt/" target="_blank"><img class="social-icon" src="http://leedpt.com/wp-content/themes/leept/images/instagram.svg"></a>
-								</li>
-								<li>
-									<a href="https://www.linkedin.com/in/james-lee-pt-dpt-2602a213/" target="_blank"><img class="social-icon" src="http://leedpt.com/wp-content/themes/leept/images/linkedin.svg"></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-
 			<div class="panel-content text-center" id="panel-blog">			
 				<div class="wrap">
 					<header class="entry-header">
-						<h2 class="entry-title  text-center">Blog</h2>
+						<h2 class="entry-title">Blog</h2>
 					</header>
 					<div class="entry-content">
 						<div class="contact-info" >
@@ -186,7 +136,66 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-
+			<div class="panel-content text-center" id="panel-connect">			
+				<div class="wrap">
+					<header class="">
+						<h2 class="entry-title  title-center">Get In Touch</h2>
+					</header>
+					<div class="">
+						<div class="contact-info" >
+							<div class="flex-container">
+								<span><i class="fas fa-phone"></i><br/><b>phone</b><br/><a href="tel: 1-847-957-3137">(847) 957-3137</a></span>
+								<span><i class="fas fa-fax"></i><br/><b>fax</b> <br/><a href="tel: 1-866-722-3137">(866) 722-3137</a></span>
+								<span><i class="far fa-envelope"></i><br/><b>email</b> <br/><a href="mailto:james@leeptchicago.com">james @ leeptchicago.com</a></span>	
+								<span><i class="fab fa-facebook-messenger"></i><br/><b>Messenger</b><br/><a href="http://m.me/leedpt">m.me/leedpt</a></span>
+							</div>												
+						</div>
+						<div class="contact-form" >
+							<h3 style="margin-bottom: 0">Got questions?</h3>
+							<h4 style="margin-bottom: 30px;padding-top: 0">Check out the <a href="">FAQ page</a> or send us a message.</h4>
+							<form action="https://formspree.io/james@leeptchicago.com" method="POST">
+								<span class="input input--minoru">
+									<input class="input__field input__field--minoru" type="text" id="input-1"  name="name">
+									<label class="input__label input__label--minoru" for="input-1" data-content="Name">
+										<span class="input__label-content input__label-content--minoru">Name</span>
+									</label>
+								</span>
+								<span class="input input--minoru">
+									<input class="input__field input__field--minoru" type="email" id="input-2"  name="email">
+									<label class="input__label input__label--minoru" for="input-2" data-content="Email">
+										<span class="input__label-content input__label-content--minoru">Email</span>
+									</label>
+								</span>
+								<span class="input input--minoru">
+									<textarea class="input__field input__field--minoru" type="text" id="input-3"  name="message" rows="2" ></textarea>
+									<label class="input__label input__label--minoru" for="input-3" data-content="Message">
+										<span class="input__label-content input__label-content--minoru">Message</span>
+									</label>
+								</span>
+								<input class="btn btn-alt" type="submit" value="Send" style="width:40%">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="panel-content text-center">
+				<div class="wrap">
+					<div>
+						<h2 class="entry-title  title-center">Connect with us</h2>
+						<ul class="social">
+							<li>
+								<a href="https://www.facebook.com/LEEDPT/" target="_blank"><img class="social-icon" src="http://leedpt.com/wp-content/themes/leept/images/facebook.svg"></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/jamesleedpt/" target="_blank"><img class="social-icon" src="http://leedpt.com/wp-content/themes/leept/images/instagram.svg"></a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/james-lee-pt-dpt-2602a213/" target="_blank"><img class="social-icon" src="http://leedpt.com/wp-content/themes/leept/images/linkedin.svg"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 			<?php
 		// Get each of our panels and show the post data.
 		if ( 0 !== twentyseventeen_panel_count() || is_customize_preview() ) : // If we have pages to show.

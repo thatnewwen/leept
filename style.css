@@ -1937,6 +1937,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 	font-weight: 800;
 	letter-spacing: 0.14em;
 	text-transform: uppercase;
+	text-align: left;
 }
 
 .entry-header .entry-title {
@@ -3219,6 +3220,14 @@ p > object:only-child {
 	width: auto;
 }
 
+.blog-post{
+	background: #edf0f2;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: left;
+  width: 100%;
+}
+
 /*--------------------------------------------------------------
 19.0 Media Queries
 --------------------------------------------------------------*/
@@ -3232,6 +3241,11 @@ p > object:only-child {
 }
 
 @media screen and (min-width: 30em) {
+	#panel-overview .background-wrap .backgorund-intro img{
+		padding-left: 0%;
+		right: 0;
+		margin: auto;
+	}
 
 	/* Typography */
 
@@ -3361,6 +3375,16 @@ p > object:only-child {
 }
 
 @media screen and (min-width: 48em) {
+	#panel-overview .background-wrap .backgorund-intro img{
+		padding-left: 10%;
+		right: inherit;
+		margin: inherit;
+	}
+
+
+	#panel-connect .contact-info .flex-container>span{
+		border-right: 2px solid #000;
+	}
 
 	/* Typography */
 
@@ -3713,7 +3737,7 @@ p > object:only-child {
 
 	.site-header .menu-scroll-down {
 		color: #fff;
-		top: 2em;
+		/*top: 2em;*/
 	}
 
 	.site-header .navigation-top .menu-scroll-down {
@@ -4408,6 +4432,7 @@ p > object:only-child {
 #panel-why-choose-us .flex-container > div{
 	margin: 10px 0;
 	flex: 1;
+	flex-basis: 50%;
 }
 
 #panel-why-choose-us .flex-container > div:hover .icon-wrap{
@@ -4446,11 +4471,12 @@ p > object:only-child {
 }
 
 #panel-location .wrap-location{
-	width: 30%;
+	/*width: 30%;*/
 	background-color: #fff;
 	padding: 35px 35px; 
 	margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 #panel-location .button:hover {
@@ -4483,6 +4509,10 @@ p > object:only-child {
 	}
 }
 
+.page .panel-content .entry-title.title-center{
+	text-align: center;
+	padding-bottom: 20px;
+}
 
 /*#panel-overview*/
 #panel-overview .background-wrap{
@@ -4495,11 +4525,11 @@ p > object:only-child {
 
 #panel-overview .background-wrap>div{
 	height: 100%;
-	width: 50%;
+	width: 100%;
 }
 
 #panel-overview .background-wrap .backgorund-intro{
-	max-width: 800px;
+	/*max-width: 800px;*/
 	margin-left: auto;
 	margin-right: 0;
 	position: relative;
@@ -4527,24 +4557,23 @@ background-image: linear-gradient(to left top, #f98b72, #f57c62, #f16c52, #ec5c4
 
 #panel-overview .wrap{
 	position: relative;
-	padding-bottom: 2em;
+	padding-bottom: 3em;
 }
 
 #panel-overview .wrap .flex-container>div{
-	max-width: 50%;
+	/*max-width: 50%;*/
 }
 #panel-overview #bio{
-	text-align: right;
+	text-align: left;
 	padding-right: 5%;
 }
 #panel-overview #bio > div{
-    max-width: 75%;
+    /*max-width: 75%;*/
     margin-left: auto;
     margin-right: 0;
     background: rgba(255, 255, 255, .7);
     padding: 20px 30px 1px 60px;
     margin-bottom: 0;
-    margin-top: 40px
 }
 #panel-overview #review{
 
@@ -4558,7 +4587,7 @@ background-image: linear-gradient(to left top, #f98b72, #f57c62, #f16c52, #ec5c4
 	}
 
 	#panel-overview .background-wrap>div{
-	height: 50%;
+	/*height: 50%;*/
 	width: 100%;
 }
 	#panel-overview .wrap .flex-container>div{
@@ -4571,31 +4600,34 @@ background-image: linear-gradient(to left top, #f98b72, #f57c62, #f16c52, #ec5c4
 	#panel-overview .background-wrap .backgorund-intro{
 		max-width: 1600px;
 	}
-	#panel-overview .background-wrap .backgorund-intro img{
-		padding-left: 10%;
-	}
+
 	#panel-overview #bio{
 		padding: 0;
 		min-height: 500px;
 		text-align: left;
 	}
 	#panel-overview #bio > div{
-		max-width: 65%;
-		margin:0 0 0 auto;
+		/*max-width: 65%;
+		margin:0 0 0 auto;*/
 	}
+}
+
+#panel-connect{
+	background: #edf0f2;
 }
 
 
 #panel-connect .contact-info{
-	width: 75%;
+	/*width: 75%;*/
     margin-left: auto;
     margin-right: auto;
 }
 
 #panel-connect .contact-info .flex-container>span{
 	width: 25%;
-	border-right:2px solid #000;
-	padding: 0 25px;
+	/*border-right:2px solid #000;*/
+	padding: 25px;
+	min-width: 180px;
 }
 
 #panel-connect .contact-info span:hover svg{
@@ -4637,7 +4669,7 @@ background-image: linear-gradient(to left top, #f98b72, #f57c62, #f16c52, #ec5c4
 
 
 #panel-connect .contact-form{
-	width: 60%;
+	/*width: 60%;*/
     max-width: 700px;
     min-width: 350px;
     margin: 60px auto;
@@ -4659,7 +4691,7 @@ background-image: linear-gradient(to left top, #f98b72, #f57c62, #f16c52, #ec5c4
 	padding: 0.8em;
 	border: none;
 	border-radius: 0;
-	background: #f0f0f0;
+	background: #fff;
 	font-weight: bold;
 	-webkit-appearance: none; /* for box shadows to show on iOS */
 }
@@ -4763,5 +4795,5 @@ background-image: linear-gradient(to left top, #f98b72, #f57c62, #f16c52, #ec5c4
 
 
 #panel-blog{
-	background-color: #edf0f2;
+	background-color: #fff;
 }
