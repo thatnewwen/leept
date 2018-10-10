@@ -1,17 +1,20 @@
 <?php
 /**
- * The Sidebar containing the main widget areas.
+ * The sidebar containing the main widget area
  *
- * @package Twenty Minutes
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package WordPress
+ * @subpackage Twenty_Seventeen
+ * @since 1.0
+ * @version 1.0
  */
+
+if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+	return;
+}
 ?>
-<div id="sidebar">    
-    <?php if ( ! dynamic_sidebar( 'sidebar-2' ) ) : ?>        
-        <aside id="archives" class="widget"> 
-         <h3 class="widget-title"><?php _e( 'Archives', 'twenty-minutes' ); ?></h3>          
-            <ul>
-                <?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
-            </ul>
-        </aside>
-    <?php endif; // end sidebar widget area ?>	
-</div><!-- sidebar -->
+
+<aside id="secondary" class="widget-area" role="complementary" aria-label="<?php esc_attr_e( 'Blog Sidebar', 'twentyseventeen' ); ?>">
+	<?php dynamic_sidebar( 'sidebar-1' ); ?>
+</aside><!-- #secondary -->

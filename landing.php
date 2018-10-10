@@ -36,9 +36,7 @@ get_header();
             <li>
               <a href="https://www.instagram.com/jamesleedpt/" target="_blank"><img class="social-icon" src="<?php bloginfo('template_directory'); ?>/images/instagram.svg" /></a>
             </li>
-            <li>
-              <a href="https://www.linkedin.com/in/james-lee-pt-dpt-2602a213/" target="_blank"><img class="social-icon" src="<?php bloginfo('template_directory'); ?>/images/linkedin.svg" /></a>
-            </li>
+            <a href="https://www.linkedin.com/in/james-lee-pt-dpt-2602a213/" target="_blank"><li><img class="social-icon" src="<?php bloginfo('template_directory'); ?>/images/linkedin.svg" /></li></a>
           </ul>
         </div>
       </div>
