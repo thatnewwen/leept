@@ -1323,8 +1323,8 @@ a:hover .nav-title,
 --------------------------------------------------------------*/
 
 .navigation-top {
-	background: #fff;
-	border-bottom: 1px solid #eee;
+	background: #ffffffe0;
+	/*border-bottom: 1px solid #eee;*/
 	border-top: 1px solid #eee;
 	font-size: 16px;
 	top: 0;
@@ -1342,7 +1342,7 @@ a:hover .nav-title,
 }
 
 .navigation-top a {
-	color: #222;
+	color: #e64932;
 	font-weight: 600;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
@@ -1428,7 +1428,7 @@ a:hover .nav-title,
 	border: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	color: #222;
+	color: #d14632;
 	display: none;
 	font-size: 14px;
 	font-size: 0.875rem;
@@ -1445,7 +1445,7 @@ a:hover .nav-title,
 	display: block;
 	position: absolute;
 	right: 0;
-	top:20px;
+	top:0px;
 }
 
 .main-navigation.toggled-on ul.nav-menu {
@@ -1644,7 +1644,7 @@ body.has-header-video .site-description {
 
 .custom-logo-link img {
 	display: inline-block;
-	max-height: 80px;
+	max-height: 50px;
 	width: auto;
 }
 
@@ -1937,7 +1937,7 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 	font-weight: 800;
 	letter-spacing: 0.14em;
 	text-transform: uppercase;
-	text-align: left;
+	text-align: center;
 }
 
 .entry-header .entry-title {
@@ -3241,12 +3241,9 @@ p > object:only-child {
 }
 
 @media screen and (min-width: 30em) {
-	#panel-overview .background-wrap .backgorund-intro img{
-		padding-left: 0%;
-		right: 0;
-		margin: auto;
+	.nav-branding {
+	    display: inline;
 	}
-
 	/* Typography */
 
 	body,
@@ -4133,7 +4130,6 @@ p > object:only-child {
 }
 
 @media screen and ( min-width: 67em ) {
-
 	/* Layout */
 
 	/* Navigation */
@@ -4432,7 +4428,7 @@ p > object:only-child {
 #panel-why-choose-us .flex-container > div{
 	margin: 10px 0;
 	flex: 1;
-	flex-basis: 50%;
+	flex-basis: 25%;
 }
 
 #panel-why-choose-us .flex-container > div:hover .icon-wrap{
@@ -4442,8 +4438,8 @@ p > object:only-child {
 
 
 @media screen and (max-width: 1280px){
-	#panel-why-choose-us .flex-container > div{
-		flex-basis: 50%;
+	#panel-why-choose-us .flex-container > div {
+		flex-basis: 25%;
 	}
 	#panel-why-choose-us .icon-descirption{
 		max-width: 350px;
@@ -4471,7 +4467,7 @@ p > object:only-child {
 }
 
 #panel-location .wrap-location{
-	/*width: 30%;*/
+	width: 30%;
 	background-color: #fff;
 	padding: 35px 35px; 
 	margin-left: auto;
@@ -4541,7 +4537,6 @@ p > object:only-child {
     left: 0;
     height: 500px;
     bottom: 0;
-    height: 110%;
 }
 
 #panel-overview .background-review{
@@ -4553,6 +4548,7 @@ background-image: linear-gradient(to left top, #f98b72, #f57c62, #f16c52, #ec5c4
 #panel-overview{
 	background-color: #f6f6f7;
 	padding:0;
+	margin-top: 40px;
 }
 
 #panel-overview .wrap{
@@ -4603,7 +4599,7 @@ background-image: linear-gradient(to left top, #f98b72, #f57c62, #f16c52, #ec5c4
 
 	#panel-overview #bio{
 		padding: 0;
-		min-height: 500px;
+		/*min-height: 500px;*/
 		text-align: left;
 	}
 	#panel-overview #bio > div{
@@ -4782,18 +4778,72 @@ background-image: linear-gradient(to left top, #f98b72, #f57c62, #f16c52, #ec5c4
 	margin-top: 15px;
 }
 
-.social li,
+.social li{
+	padding: 13px;
+	margin: 15px;
+	background: #edf0f2;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	border: 2px solid #edf0f2;
+	transition: .3s;
+}
+
+.social li:hover{
+	border: 2px solid #e64a33;
+}
+
 .contact-info li{
   list-style: none;
   display: inline;
 }
 
 .social-icon{
-  margin-right: 10px;
   width: 20px;
 }
 
 
 #panel-blog{
 	background-color: #fff;
+}
+
+#top-menu{
+	float: right;
+	background: #e6e6e600;
+}
+
+.menu-main-container{
+	display: inline;
+}
+
+@media screen and (max-width: 30em) {
+	#top-menu{
+		float: none;
+	}
+
+	#panel-overview .background-wrap .backgorund-intro img{
+		padding-left: 0%;
+		right: 0;
+		margin: auto;
+	}
+
+	.icon-descirption{
+		font-size: 12px;
+		text-align: justify;
+	}
+
+	#panel-connect .contact-info .flex-container>span{
+		padding: 15px;
+		min-width: 170px;
+	}
+
+	#panel-why-choose-us .flex-container .icon-wrap{
+		width: 50px;
+		height: 50px;
+	}
+
+	.nav-branding {
+	    display: inline;
+	}
 }

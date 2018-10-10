@@ -18,10 +18,10 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
 		<div class="panel-content text-center" id="panel-why-choose-us">
 			<div class="wrap">
-				<header class="entry-header">
+				<header class="">
 					<h2 class="entry-title">Why Choose Us?</h2>
 				</header>
-				<div class="entry-content">
+				<div class="">
 					<div class="flex-container">
 						<div><div class="icon-wrap" style="background-image: url(/wordpress/wp-content/themes/LEEPT/assets/images/why-choose-us-mission.png)"></div><div class="icon-title">Our Mission</div><div class="icon-descirption">Quick recovery and patient centered therapy to safely return to activities you enjoy the most</div></div>
 						<div><div class="icon-wrap" style="background-image: url(/wordpress/wp-content/themes/LEEPT/assets/images/why-choose-us-manual.png)"></div><div class="icon-title">Hands on Manual Therapy</div><div class="icon-descirption">Move and feel better in a shorter time. Direct hands on treatment improve stiffness, release nerve tension and wake up dysfunctional muscles</div></div>
@@ -40,7 +40,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="wrap">
-					<div class="entry-content">
+					<div class="">
 						<div class="flex-container">
 							<div id="bio">
 								<div>
@@ -56,10 +56,10 @@ get_header(); ?>
 			</div>
 			<div class="panel-content text-center">
 				<div class="wrap">
-					<header class="entry-header">
+					<header class="">
 						<h2 class="entry-title">Reviews</h2>
 					</header>
-					<div class="entry-content">
+					<div class="">
 						<div class="background-review">
 							<div id="review">
 								<div><p>"... I would highly recommend James if you want a one-on-one, hands on, individual who wants to help you get better and help you better understand where your body vulnerabilities are."</p></div>
@@ -71,10 +71,10 @@ get_header(); ?>
 			</div>
 			<div class="panel-content text-center" id="panel-location">
 				<div class="wrap">
-					<header class="entry-header">
+					<header class="">
 						<h2 class="entry-title">Locations</h2>
 					</header>
-					<div class="entry-content">
+					<div class="">
 						<div class="flex-container">
 							<a href="https://leedpt.setmore.com/" target="_blank"><div class="wrap-location">
 								<img src="/wordpress/wp-content/themes/LEEPT/assets/images/location-home.jpg">
@@ -102,10 +102,10 @@ get_header(); ?>
 			</div>
 			<div class="panel-content text-center" id="panel-blog">			
 				<div class="wrap">
-					<header class="entry-header">
+					<header class="">
 						<h2 class="entry-title">Blog</h2>
 					</header>
-					<div class="entry-content">
+					<div class="">
 						<div class="contact-info" >
 							<div class="flex-container">
 								<?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
@@ -183,15 +183,9 @@ get_header(); ?>
 					<div>
 						<h2 class="entry-title  title-center">Connect with us</h2>
 						<ul class="social">
-							<li>
-								<a href="https://www.facebook.com/LEEDPT/" target="_blank"><img class="social-icon" src="http://leedpt.com/wp-content/themes/leept/images/facebook.svg"></a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/jamesleedpt/" target="_blank"><img class="social-icon" src="http://leedpt.com/wp-content/themes/leept/images/instagram.svg"></a>
-							</li>
-							<li>
-								<a href="https://www.linkedin.com/in/james-lee-pt-dpt-2602a213/" target="_blank"><img class="social-icon" src="http://leedpt.com/wp-content/themes/leept/images/linkedin.svg"></a>
-							</li>
+							<a href="https://www.facebook.com/LEEDPT/" target="_blank"><li><img class="social-icon" src="http://leedpt.com/wp-content/themes/leept/images/facebook.svg"></li></a>
+							<a href="https://www.instagram.com/jamesleedpt/" target="_blank"><li><img class="social-icon" src="http://leedpt.com/wp-content/themes/leept/images/instagram.svg"></li></a>
+							<a href="https://www.linkedin.com/in/james-lee-pt-dpt-2602a213/" target="_blank"><li><img class="social-icon" src="<?php bloginfo('template_directory'); ?>/images/linkedin.svg" /></li></a>
 						</ul>
 					</div>
 				</div>

@@ -36,7 +36,7 @@
 			<div class="navigation-top">
 				<div class="wrap">
 					<?php the_custom_logo(); ?>
-					<!-- <h1 class="nav-branding"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1> -->
+					<h1 class="nav-branding"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
 				</div><!-- .wrap -->
 			</div><!-- .navigation-top -->
